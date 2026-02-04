@@ -1,0 +1,2169 @@
+{
+  "generated_at": "2026-02-04T22:55:20Z",
+  "commits": [
+    {
+      "sha": "dd5a878943a5919ac21ba60a21bfd83c03e781e0",
+      "date": "2026-02-01T02:08:08-05:00",
+      "message": "Complete Phase -1 spikes and close initial beads",
+      "beads_added": [
+        "bd-10x",
+        "bd-2ss",
+        "bd-10i.1.1",
+        "bd-10i.3.2",
+        "bd-10i.10.4",
+        "bd-10i.13.1",
+        "bd-10i.10.5",
+        "bd-10i.2.4",
+        "bd-10i.2.2",
+        "bd-10i.10.3",
+        "bd-10i.3.3",
+        "bd-10i.10.6",
+        "bd-10i.2.5",
+        "bd-10i.10.1",
+        "bd-1f8",
+        "bd-10i.1.2",
+        "bd-10i.1.3"
+      ]
+    },
+    {
+      "sha": "ced1e5e7e083eb848636263e3e2f4f2599418bd1",
+      "date": "2026-02-01T02:10:38-05:00",
+      "message": "feat: Add terminal session, color downgrade, style system, and terminal model",
+      "beads_added": [
+        "bd-10i.4.4"
+      ]
+    },
+    {
+      "sha": "4f7097a88896129650868dfc650887735aa60c86",
+      "date": "2026-02-01T02:10:56-05:00",
+      "message": "chore: Sync beads and terminal model updates",
+      "beads_added": [
+        "bd-10i.5.1",
+        "bd-2yd"
+      ]
+    },
+    {
+      "sha": "0da0ba0587baddec39dca7d1b2325e6b7e0e87d4",
+      "date": "2026-02-01T02:15:38-05:00",
+      "message": "feat: Implement Buffer API and supporting infrastructure",
+      "beads_added": [
+        "bd-7u8",
+        "bd-22q",
+        "bd-2yd",
+        "bd-10i.10.2",
+        "bd-10i.1.2"
+      ]
+    },
+    {
+      "sha": "8d73af9a54f8546d9fb80068bbd3b55247d329b2",
+      "date": "2026-02-01T02:16:09-05:00",
+      "message": "chore: Sync remaining changes",
+      "beads_added": [
+        "bd-22q"
+      ]
+    },
+    {
+      "sha": "d0cd7b5e01fec64033fd51287d67a5f722a6a685",
+      "date": "2026-02-01T02:19:07-05:00",
+      "message": "feat: Add one-writer rule guidance + sync beads and collaborator changes",
+      "beads_added": [
+        "bd-10i.3.5"
+      ]
+    },
+    {
+      "sha": "e6cb5b8386f1fdfc684d2c7be0ff209339302c9e",
+      "date": "2026-02-01T02:19:56-05:00",
+      "message": "feat: Implement GraphemePool with reference counting",
+      "beads_added": [
+        "bd-10i.5.1"
+      ]
+    },
+    {
+      "sha": "3ff7e41a2796501fdb4a743988100c1914a9e454",
+      "date": "2026-02-01T12:50:16-05:00",
+      "message": "feat(ftui-core): improve inline mode safety and add validation helpers",
+      "beads_added": [
+        "bd-2rs",
+        "bd-10i.12.4",
+        "bd-2ao",
+        "bd-3ky.1"
+      ]
+    },
+    {
+      "sha": "8c500fdc84b95c21a95b7cf0ea83d5eb0e1bd52a",
+      "date": "2026-02-01T12:51:21-05:00",
+      "message": "docs: Add ANSI escape sequence reference",
+      "beads_added": [
+        "bd-2uk",
+        "bd-10i.3.4",
+        "bd-1ho.1",
+        "bd-10i.2.3",
+        "bd-3i6",
+        "bd-10i.3.1",
+        "bd-rk95",
+        "bd-10i.3.6",
+        "bd-10i.3.5"
+      ]
+    },
+    {
+      "sha": "860811ba8ac84d4a328d7516386e007397ce3129",
+      "date": "2026-02-01T12:56:48-05:00",
+      "message": "feat(presenter): Implement state-tracked ANSI emission (bd-10i.4.3)",
+      "beads_added": [
+        "bd-2uk",
+        "bd-1oz",
+        "bd-10i.11.1",
+        "bd-3e8",
+        "bd-2rs",
+        "bd-1qb",
+        "bd-10i.4.3",
+        "bd-em01"
+      ]
+    },
+    {
+      "sha": "86613c83a82dcd1e029216cdffa73ddb54106d78",
+      "date": "2026-02-01T13:11:23-05:00",
+      "message": "feat(text): Add ASCII width fast-path optimization",
+      "beads_added": [
+        "bd-10i.10",
+        "bd-2x0j",
+        "bd-v6y"
+      ]
+    },
+    {
+      "sha": "ad18d41ffbf1cdb07fbd37db5d27b6cd317a32fc",
+      "date": "2026-02-01T13:12:49-05:00",
+      "message": "feat: Close sanitize, workspace, and ADR beads",
+      "beads_added": [
+        "bd-10i.8.4",
+        "bd-10i.2.1"
+      ]
+    },
+    {
+      "sha": "07a836e993b0b961bef1e62e35a19dcdf551c0cf",
+      "date": "2026-02-01T13:16:55-05:00",
+      "message": "feat(render): Add CountingWriter for output bytes tracking (bd-3aqs)",
+      "beads_added": [
+        "bd-389n",
+        "bd-cyww",
+        "bd-3aqs"
+      ]
+    },
+    {
+      "sha": "75e213613879d73a4d81e256b3d7fb3e4f3c273c",
+      "date": "2026-02-01T13:46:45-05:00",
+      "message": "feat(runtime): Add Program runtime with Model/Cmd pattern",
+      "beads_added": [
+        "bd-10i.2.7",
+        "bd-10i.3.7",
+        "bd-10i.2",
+        "bd-3cc",
+        "bd-10i.3",
+        "bd-3hy",
+        "bd-10i.3.1",
+        "bd-16k",
+        "bd-10i.11.2",
+        "bd-10i.1",
+        "bd-1yvn",
+        "bd-1mh",
+        "bd-rk95",
+        "bd-6e9.8",
+        "bd-10i.12.7",
+        "bd-10i.12.1",
+        "bd-10i.4",
+        "bd-10i.12.3"
+      ]
+    },
+    {
+      "sha": "c2e9507ccb7a8d263a4945cf8977c63057a0a482",
+      "date": "2026-02-01T13:49:25-05:00",
+      "message": "Add glossary doc, modernize PTY error handling",
+      "beads_added": [
+        "bd-3mo",
+        "bd-10i.12.2",
+        "bd-10i"
+      ]
+    },
+    {
+      "sha": "0564b30294cf828694b33e826a7e77dea00c5c56",
+      "date": "2026-02-01T16:00:22-05:00",
+      "message": "test: add ~120 tests across widgets, render, runtime, layout",
+      "beads_added": [
+        "bd-2law",
+        "bd-24li",
+        "bd-1ezv",
+        "bd-128s"
+      ]
+    },
+    {
+      "sha": "cf4c8eb895f7b90bca21973f35153d9a667fe7ca",
+      "date": "2026-02-01T16:20:36-05:00",
+      "message": "feat(widgets): Add budget-aware degradation to all widgets (bd-128s)",
+      "beads_added": [
+        "bd-1xo",
+        "bd-3ky.3",
+        "bd-3kou",
+        "bd-3ky.12",
+        "bd-6qxh",
+        "bd-3ky.4",
+        "bd-2lwf",
+        "bd-1zv",
+        "bd-2tyd",
+        "bd-2mlp",
+        "bd-10i.12.4",
+        "bd-3dca",
+        "bd-3bp.7",
+        "bd-3c29",
+        "bd-3427",
+        "bd-1195",
+        "bd-3ky.10",
+        "bd-2r8v",
+        "bd-2138",
+        "bd-imy6",
+        "bd-1ezv",
+        "bd-17nn",
+        "bd-39fk",
+        "bd-17kf",
+        "bd-3tiz",
+        "bd-1awh",
+        "bd-128s",
+        "bd-10i.8.6",
+        "bd-2mes"
+      ]
+    },
+    {
+      "sha": "e7c816af56a13f0648ed746826ceddaa60387088",
+      "date": "2026-02-01T16:21:52-05:00",
+      "message": "chore: stage concurrent changes from other agents",
+      "beads_added": [
+        "bd-19wa",
+        "bd-2nzx"
+      ]
+    },
+    {
+      "sha": "c9cdb615cbcb41a81c7d157e630d036af19d1514",
+      "date": "2026-02-01T16:24:18-05:00",
+      "message": "chore: sync multi-agent work and resolve conflicts",
+      "beads_added": [
+        "bd-9xbn",
+        "bd-1zv"
+      ]
+    },
+    {
+      "sha": "f53e97e11db131a4182eeabad7c2330f850981d6",
+      "date": "2026-02-01T16:28:19-05:00",
+      "message": "chore(ftui-layout): polish debug module and close bd-9xbn",
+      "beads_added": [
+        "bd-9xbn"
+      ]
+    },
+    {
+      "sha": "addc3ce1fcb2fd35ca2663d119f22a6a02a1e114",
+      "date": "2026-02-01T16:32:03-05:00",
+      "message": "feat(ftui-harness): add asciicast v2 session recording (bd-3dca)",
+      "beads_added": [
+        "bd-31j8",
+        "bd-3dca",
+        "bd-1fd9"
+      ]
+    },
+    {
+      "sha": "2fec4118d983e2ab6395cdcbe049ebd474ba7bd7",
+      "date": "2026-02-01T16:36:11-05:00",
+      "message": "feat(widgets): implement Panel widget with border, title, padding",
+      "beads_added": [
+        "bd-3bp.8",
+        "bd-3n2y",
+        "bd-1ho.2",
+        "bd-393y"
+      ]
+    },
+    {
+      "sha": "727de87dbd383260324e1c521632c956180e34f1",
+      "date": "2026-02-01T16:43:06-05:00",
+      "message": "feat(ftui-extras): add Console abstraction for styled output (bd-1ho.2)",
+      "beads_added": [
+        "bd-1qb",
+        "bd-1ho.2"
+      ]
+    },
+    {
+      "sha": "9233859644ea91ffd1e7aaa7ff2a1135974fbb8d",
+      "date": "2026-02-01T18:02:45-05:00",
+      "message": "Stage concurrent agent changes",
+      "beads_added": [
+        "bd-3bp.2",
+        "bd-2dc"
+      ]
+    },
+    {
+      "sha": "04493cc64348d930d31332e6e19b7c8d6aa5ff6f",
+      "date": "2026-02-01T18:15:02-05:00",
+      "message": "Stage concurrent agent changes",
+      "beads_added": [
+        "bd-1d94"
+      ]
+    },
+    {
+      "sha": "8862b6b7f280d658dbb27ab654c3149fc1a2cd3e",
+      "date": "2026-02-01T18:17:47-05:00",
+      "message": "feat(widgets): Implement StatusLine widget and fix unicode title test",
+      "beads_added": [
+        "bd-2dc"
+      ]
+    },
+    {
+      "sha": "010006050b961a3a6f3cfc7c28cbaf52ed7cbe68",
+      "date": "2026-02-01T18:38:03-05:00",
+      "message": "chore: Stage concurrent agent work across widgets, runtime, and extras",
+      "beads_added": [
+        "bd-174b",
+        "bd-2ixu"
+      ]
+    },
+    {
+      "sha": "4fa45b3a07fb63b11a08eb2d837e05ed6af13f0b",
+      "date": "2026-02-01T19:05:51-05:00",
+      "message": "feat: Add Rope text storage, View helpers, and multi-agent fixes",
+      "beads_added": [
+        "bd-3ky.14",
+        "bd-174b",
+        "bd-34lz",
+        "bd-21hz",
+        "bd-3ky.5",
+        "bd-2xi6"
+      ]
+    },
+    {
+      "sha": "827cfac4c69ecaa1ae103e1dae09582ddf43d96c",
+      "date": "2026-02-01T19:19:32-05:00",
+      "message": "feat(widgets): Add LogViewer widget for agent harness",
+      "beads_added": [
+        "bd-3ky.14",
+        "bd-29v",
+        "bd-6e9.7"
+      ]
+    },
+    {
+      "sha": "feb9773b919fa4b0559d97e334cf052568484bc9",
+      "date": "2026-02-01T19:24:04-05:00",
+      "message": "feat(widgets): Add Virtualized\u003cT\u003e container for progressive rendering",
+      "beads_added": [
+        "bd-3t87",
+        "bd-29v",
+        "bd-6e9.7",
+        "bd-2kj"
+      ]
+    },
+    {
+      "sha": "97266d7a2cde721875e9c2284df9018d76ff3509",
+      "date": "2026-02-01T19:29:32-05:00",
+      "message": "feat(harness): Implement Agent Harness reference application (bd-2kj)",
+      "beads_added": [
+        "bd-3t87",
+        "bd-wo2",
+        "bd-14s3",
+        "bd-3j8t",
+        "bd-2kj",
+        "bd-1jsq"
+      ]
+    },
+    {
+      "sha": "693f34253c63e68927e364f0a4991ad717322cbb",
+      "date": "2026-02-01T19:33:08-05:00",
+      "message": "Implement Draw trait for Frame and add cursor module",
+      "beads_added": [
+        "bd-14s3",
+        "bd-2ky9"
+      ]
+    },
+    {
+      "sha": "284b7cbd65c0dd6516164cf678e49299a91bd9df",
+      "date": "2026-02-01T19:34:10-05:00",
+      "message": "Add page_up/page_down methods and cleanup syntax patterns",
+      "beads_added": [
+        "bd-zlq9"
+      ]
+    },
+    {
+      "sha": "fd14a8373e30f51b10d4977e53b9ed080ede7449",
+      "date": "2026-02-01T19:34:45-05:00",
+      "message": "feat(widgets): Add page_up/page_down to Virtualized scrolling (bd-zlq9)",
+      "beads_added": [
+        "bd-zlq9"
+      ]
+    },
+    {
+      "sha": "7d094933b40d8423f296def7184e049c0e4c8170",
+      "date": "2026-02-01T19:56:33-05:00",
+      "message": "feat: major widget enhancements with hyperlinks, virtualization, and logging",
+      "beads_added": [
+        "bd-1ho.6",
+        "bd-wo2",
+        "bd-10i.8",
+        "bd-uo6v",
+        "bd-20wz"
+      ]
+    },
+    {
+      "sha": "561601779413df5908ad0d2f00bc762dbaf745b0",
+      "date": "2026-02-01T20:05:54-05:00",
+      "message": "feat(text): Add undo/redo and selection to Editor core (bd-3ky.6)",
+      "beads_added": [
+        "bd-1ho.6",
+        "bd-3ky.8",
+        "bd-3ky.6",
+        "bd-2ky9",
+        "bd-2vr",
+        "bd-uo6v"
+      ]
+    },
+    {
+      "sha": "5e78575aef766d92bc810e9dc8e04af25f2191cb",
+      "date": "2026-02-01T20:53:20-05:00",
+      "message": "test(widgets): Add 20 edge-case tests for Paginator widget, close bd-6e9.4",
+      "beads_added": [
+        "bd-6e9",
+        "bd-1ho.7",
+        "bd-3ky.8",
+        "bd-10i.11",
+        "bd-1ho.8",
+        "bd-3bp.9",
+        "bd-6e9.4",
+        "bd-3bp.3",
+        "bd-1ho",
+        "bd-3bp.2",
+        "bd-xn2",
+        "bd-2gx",
+        "bd-10i.9",
+        "bd-3bp.12",
+        "bd-3bp.4",
+        "bd-vv66",
+        "bd-1ho.5",
+        "bd-6e9.5",
+        "bd-6e9.3",
+        "bd-3bp.11",
+        "bd-2vr",
+        "bd-6e9.2",
+        "bd-3ky.15",
+        "bd-381",
+        "bd-6e9.1",
+        "bd-3ky.9",
+        "bd-3bp.1",
+        "bd-3ky.7",
+        "bd-3ky.13",
+        "bd-6e9.6",
+        "bd-3bp.5"
+      ]
+    },
+    {
+      "sha": "547b12d43042124099b949b80b38ac8bcce4280b",
+      "date": "2026-02-01T20:56:37-05:00",
+      "message": "test(widgets): Add comprehensive tests for textarea, block, padding",
+      "beads_added": [
+        "bd-3bp.13",
+        "bd-6e9.9",
+        "bd-3bp.6",
+        "bd-3bp"
+      ]
+    },
+    {
+      "sha": "801f1374685edb7c826d9f8f625b501fbb24baed",
+      "date": "2026-02-01T21:03:00-05:00",
+      "message": "fix(widgets): Fix clippy collapsible_if in paginator test, close epics",
+      "beads_added": [
+        "bd-3bp.13",
+        "bd-6e9",
+        "bd-10i.9",
+        "bd-3ky",
+        "bd-10i.12"
+      ]
+    },
+    {
+      "sha": "6616a38ab292f3ba4008112c0b976579231130b2",
+      "date": "2026-02-01T21:06:42-05:00",
+      "message": "test: Add renderable snapshot tests and rich core integration tests",
+      "beads_added": [
+        "bd-tb84",
+        "bd-10i",
+        "bd-2a5"
+      ]
+    },
+    {
+      "sha": "0d03d89805ce54cbae5d462c4678bb956df54e18",
+      "date": "2026-02-01T22:03:34-05:00",
+      "message": "feat: major expansion with demo showcase, PTY improvements, and documentation",
+      "beads_added": [
+        "bd-qsbe.21",
+        "bd-qsbe.1",
+        "bd-2nu8.16",
+        "bd-2nu8.14",
+        "bd-qsbe.20",
+        "bd-qsbe.4",
+        "bd-qsbe.5",
+        "bd-2nu8.1"
+      ]
+    },
+    {
+      "sha": "c563e29e36ff3267f62e35b3ba3e80114a466882",
+      "date": "2026-02-01T22:58:59-05:00",
+      "message": "fix: Saturating arithmetic in paragraph, text rendering, and layout solver; add Default impls",
+      "beads_added": [
+        "bd-qsbe.19",
+        "bd-qsbe.18",
+        "bd-qsbe.12",
+        "bd-qsbe.7",
+        "bd-qsbe.16",
+        "bd-qsbe.14",
+        "bd-qsbe.11",
+        "bd-2nu8.15.2",
+        "bd-2nu8.15",
+        "bd-qsbe.15",
+        "bd-2nu8.16",
+        "bd-qsbe.2",
+        "bd-qsbe.9",
+        "bd-2nu8.14.1",
+        "bd-2nu8.14",
+        "bd-2nu8.15.1",
+        "bd-qsbe.24",
+        "bd-qsbe.6",
+        "bd-qsbe.3",
+        "bd-2nu8.14.2",
+        "bd-qsbe.17",
+        "bd-2nu8.14.3",
+        "bd-qsbe.8",
+        "bd-qsbe.10",
+        "bd-qsbe.5",
+        "bd-2nu8.15.10",
+        "bd-qsbe.13"
+      ]
+    },
+    {
+      "sha": "5a46fbe76cff5e4c0ab3a6906ff198167e44879b",
+      "date": "2026-02-01T23:49:15-05:00",
+      "message": "feat: terminal capability improvements and expanded input parser",
+      "beads_added": [
+        "bd-2nu8.5.3",
+        "bd-qsbe",
+        "bd-2nu8.5.1",
+        "bd-2nu8.6",
+        "bd-qsbe.23",
+        "bd-2nu8.6.1",
+        "bd-2nu8.5.2",
+        "bd-qsbe.22",
+        "bd-2nu8.5"
+      ]
+    },
+    {
+      "sha": "e96349d137adab9b66ee7b3d83152a86d9959057",
+      "date": "2026-02-01T23:57:04-05:00",
+      "message": "test(ftui-render): add coverage for buffer wide glyphs and diff engine",
+      "beads_added": [
+        "bd-2nu8.15.8",
+        "bd-2nu8.6.3",
+        "bd-2nu8.15.3",
+        "bd-2nu8.6.4",
+        "bd-2nu8.15.4",
+        "bd-2nu8.15.11",
+        "bd-2nu8.15.9",
+        "bd-2nu8.6.2",
+        "bd-2nu8.15.5"
+      ]
+    },
+    {
+      "sha": "ee52fa8d71a5e79e67d8e647946c2f335b89fff2",
+      "date": "2026-02-01T23:59:59-05:00",
+      "message": "Add comprehensive unit test coverage for presenter and style modules",
+      "beads_added": [
+        "bd-2nu8.6.3",
+        "bd-2nu8.7.1",
+        "bd-2nu8.15.12",
+        "bd-2nu8.15.3",
+        "bd-2nu8.6.4",
+        "bd-2nu8.6.2"
+      ]
+    },
+    {
+      "sha": "3a645f71290a566dbc2dc7ecabbbd5d6006b5564",
+      "date": "2026-02-02T00:02:20-05:00",
+      "message": "Add comprehensive color downgrade edge case tests",
+      "beads_added": [
+        "bd-2nu8.15.13",
+        "bd-2nu8.15.12",
+        "bd-2nu8.7.2",
+        "bd-2nu8.15.14",
+        "bd-2nu8.15.5"
+      ]
+    },
+    {
+      "sha": "149baf113b229a7e031cdb158c4f97e49b23025d",
+      "date": "2026-02-02T00:05:37-05:00",
+      "message": "chore: add demo showcase E2E script and update beads tracker",
+      "beads_added": [
+        "bd-2nu8.15.8",
+        "bd-2nu8.7.3",
+        "bd-2nu8.15.14"
+      ]
+    },
+    {
+      "sha": "a44ea474b08d7c53f1373b7fc89ede3a063f01ed",
+      "date": "2026-02-02T00:10:16-05:00",
+      "message": "feat: add E2E tests for OSC 8 hyperlinks + fix hyperlink rendering",
+      "beads_added": [
+        "bd-2nu8.8.1",
+        "bd-2nu8.15.13",
+        "bd-2nu8.6.1",
+        "bd-2nu8.7.3",
+        "bd-2nu8.9.1"
+      ]
+    },
+    {
+      "sha": "75a18ead7a97c9d0cb62155e2e06b6262750793d",
+      "date": "2026-02-02T12:58:22-05:00",
+      "message": "fix(harness): use threaded stdin reader to prevent blocking on poll",
+      "beads_added": [
+        "bd-2nu8.10",
+        "bd-2nu8.8",
+        "bd-2nu8.10.3",
+        "bd-2nu8.8.1",
+        "bd-2nu8.9.3",
+        "bd-2nu8.15.6",
+        "bd-2nu8.10.1",
+        "bd-2nu8.11.1",
+        "bd-2nu8.11",
+        "bd-2nu8.10.2",
+        "bd-2nu8.15.4",
+        "bd-2nu8.15.11",
+        "bd-2nu8.15.7",
+        "bd-2nu8.8.3",
+        "bd-2nu8.9.2",
+        "bd-2nu8.8.2",
+        "bd-2nu8.11.2",
+        "bd-2nu8.8.4",
+        "bd-2nu8.9",
+        "bd-2nu8.15.10"
+      ]
+    },
+    {
+      "sha": "eb144dc04d735b9642700d03242b95aa4ebd32df",
+      "date": "2026-02-02T13:18:30-05:00",
+      "message": "chore: commit multi-agent work",
+      "beads_added": [
+        "bd-2nu8.16.3",
+        "bd-2nu8.12.5",
+        "bd-2nu8.13",
+        "bd-2nu8.16.1",
+        "bd-2nu8.6",
+        "bd-2nu8.15",
+        "bd-2nu8.18",
+        "bd-2nu8.12",
+        "bd-2nu8.12.4",
+        "bd-2nu8.19",
+        "bd-2nu8.16.2",
+        "bd-2nu8.4",
+        "bd-2nu8.12.3",
+        "bd-2nu8.17",
+        "bd-2nu8.12.2",
+        "bd-2nu8"
+      ]
+    },
+    {
+      "sha": "85dbc98e5ecd73d3b447fead8bed91521596c878",
+      "date": "2026-02-02T13:22:12-05:00",
+      "message": "fix(virtualized): rename duplicate test function",
+      "beads_added": [
+        "bd-wfv5",
+        "bd-33xi",
+        "bd-2nu8.16.2"
+      ]
+    },
+    {
+      "sha": "24f4f24385fa477936dc75a91d898caa4884ad97",
+      "date": "2026-02-02T13:22:37-05:00",
+      "message": "chore: sync beads and formatting",
+      "beads_added": [
+        "bd-2d66"
+      ]
+    },
+    {
+      "sha": "56f0bd1f1dc8a956c9c306abc3d1ece3a33eb02d",
+      "date": "2026-02-02T13:22:58-05:00",
+      "message": "chore: sync changes from concurrent agents",
+      "beads_added": [
+        "bd-268y"
+      ]
+    },
+    {
+      "sha": "501483b8c2a06280888dc5a8797c849d650a82b3",
+      "date": "2026-02-02T19:41:38-05:00",
+      "message": "feat(extras): add composable effect chains for text effects (bd-3aa3)",
+      "beads_added": [
+        "bd-2mc1",
+        "bd-1b5h.1",
+        "bd-3vbf.11",
+        "bd-3vbf.26",
+        "bd-17h9.1",
+        "bd-3k3x.1",
+        "bd-1rz0.1",
+        "bd-2dow.2",
+        "bd-3vbf.4",
+        "bd-l8x9.1.4",
+        "bd-17h9.2",
+        "bd-l8x9.1.2",
+        "bd-3krw",
+        "bd-3u5x",
+        "bd-2dow.1",
+        "bd-3vbf.14",
+        "bd-l8x9.1",
+        "bd-2lus.2",
+        "bd-3vbf.8",
+        "bd-2dow.3",
+        "bd-3aa3",
+        "bd-3bix",
+        "bd-3vbf.10",
+        "bd-l8x9.2.2",
+        "bd-2lus.1",
+        "bd-l8x9.2",
+        "bd-2dow.4",
+        "bd-3vbf.2"
+      ]
+    },
+    {
+      "sha": "56c156641286a446abaaafcf55d87e135451da2d",
+      "date": "2026-02-02T20:05:11-05:00",
+      "message": "refactor(runtime/undo): streamline command module imports and docs",
+      "beads_added": [
+        "bd-1rz0.2.3"
+      ]
+    },
+    {
+      "sha": "0b030048e9b1470f9bc4469c34befbaf6a58ca3a",
+      "date": "2026-02-02T20:17:48-05:00",
+      "message": "feat(widgets): add toast and notification queue widgets (bd-3tmk)",
+      "beads_added": [
+        "bd-3vbf.15",
+        "bd-1nac.4",
+        "bd-4kq0.4.4",
+        "bd-l8x9.5.1",
+        "bd-2lus.6",
+        "bd-1rz0.3",
+        "bd-2dow.5",
+        "bd-3tmk.1",
+        "bd-1rz0.13",
+        "bd-1rz0.5",
+        "bd-39y4.1",
+        "bd-3tmk.2",
+        "bd-1nac.3",
+        "bd-1nac.2",
+        "bd-39y4.11",
+        "bd-1rz0.16",
+        "bd-l8x9.2"
+      ]
+    },
+    {
+      "sha": "c1875b05443543add479161db4327469be46f8b3",
+      "date": "2026-02-02T20:25:03-05:00",
+      "message": "feat(widgets): add toast animation support (bd-3tmk.3)",
+      "beads_added": [
+        "bd-1rz0.3",
+        "bd-3tmk.3",
+        "bd-1rz0.13",
+        "bd-l8x9.8.1",
+        "bd-l8x9.8",
+        "bd-l8x9.3.1",
+        "bd-4kq0.1.1",
+        "bd-39y4.11",
+        "bd-l8x9.4.1"
+      ]
+    },
+    {
+      "sha": "5f5f7fadec38574b040fcb2e1e9445b1e626d6ab",
+      "date": "2026-02-02T20:38:03-05:00",
+      "message": "feat(widgets): add conformal rank confidence to command palette scorer (bd-39y4.12)",
+      "beads_added": [
+        "bd-39y4.12",
+        "bd-4kq0.3.1",
+        "bd-4kq0.2.1",
+        "bd-l8x9.3",
+        "bd-39y4.13",
+        "bd-2lus.2",
+        "bd-l8x9.4",
+        "bd-3vbf.3",
+        "bd-4kq0.1.1",
+        "bd-1z02.1"
+      ]
+    },
+    {
+      "sha": "7e04989495ef251634c318cadbdff8e1b8191566",
+      "date": "2026-02-02T20:43:29-05:00",
+      "message": "feat(widgets): add incremental filter/search updates to LogViewer (bd-1b5h.11)",
+      "beads_added": [
+        "bd-1b5h.11",
+        "bd-4kq0.3.1",
+        "bd-4kq0.2.1",
+        "bd-3vbf.12",
+        "bd-4kq0.2.2",
+        "bd-39y4.13",
+        "bd-4kq0.4.1",
+        "bd-3vbf.5",
+        "bd-1b5h.12"
+      ]
+    },
+    {
+      "sha": "5acaa929df09cfd82573f8f0e0c20d25e27f6011",
+      "date": "2026-02-02T20:47:17-05:00",
+      "message": "feat(runtime): add anytime-valid e-process throttle for streaming recompute control (bd-1b5h.12)",
+      "beads_added": [
+        "bd-1z02.2",
+        "bd-4kq0.3.2",
+        "bd-4kq0.4.1",
+        "bd-39y4.2",
+        "bd-1b5h.12"
+      ]
+    },
+    {
+      "sha": "0e1ff1293dee5d38291772c6632517e47266fbee",
+      "date": "2026-02-02T21:02:42-05:00",
+      "message": "feat(render,layout): adaptive budget controller + layout coherence cache (bd-4kq0.3.1..4.2)",
+      "beads_added": [
+        "bd-2my1.3",
+        "bd-4kq0.3",
+        "bd-1z02.2",
+        "bd-4kq0.3.2",
+        "bd-4kq0.3.3",
+        "bd-2my1.4",
+        "bd-2my1.1",
+        "bd-39y4.5",
+        "bd-4kq0.2.2",
+        "bd-4kq0.4.2",
+        "bd-3vbf.6",
+        "bd-4kq0.2.3",
+        "bd-39y4.3",
+        "bd-39y4.10",
+        "bd-1b5h.2",
+        "bd-4kq0.1.2",
+        "bd-4kq0.2",
+        "bd-39y4.2"
+      ]
+    },
+    {
+      "sha": "0e9dbac918eebce6a1c9c2246b3ba89d6c0b699c",
+      "date": "2026-02-02T21:30:03-05:00",
+      "message": "chore: sync beads state and apply clippy div_ceil fix",
+      "beads_added": [
+        "bd-4kq0.6.2",
+        "bd-1i67.4"
+      ]
+    },
+    {
+      "sha": "881f3857965ff7923cf3355b6a4dc245f2787f9a",
+      "date": "2026-02-02T21:31:29-05:00",
+      "message": "refactor: minor improvements to program, width_cache, and wrap modules",
+      "beads_added": [
+        "bd-4kq0.8.2"
+      ]
+    },
+    {
+      "sha": "f0e044e8ddf553726f0362de46059a9ec2b2feec",
+      "date": "2026-02-02T21:46:01-05:00",
+      "message": "feat(core): add WidthCache perf tests + Bayesian capability evidence ledger",
+      "beads_added": [
+        "bd-4kq0.7",
+        "bd-130l.5",
+        "bd-4kq0.7.1",
+        "bd-4kq0.7.3",
+        "bd-4kq0.8.3",
+        "bd-4kq0.8",
+        "bd-130l.3",
+        "bd-4kq0.8.2",
+        "bd-4kq0.6",
+        "bd-4kq0.7.2",
+        "bd-130l.4",
+        "bd-4kq0",
+        "bd-4kq0.6.3"
+      ]
+    },
+    {
+      "sha": "11bda7a1526e5f468d0ac8c96614d6bfcddeb8a3",
+      "date": "2026-02-02T22:05:01-05:00",
+      "message": "feat: add statistical optimization modules (bd-10ck, bd-14la, bd-22fb, bd-y6fw, bd-7nm3)",
+      "beads_added": [
+        "bd-1n9e",
+        "bd-2mc1",
+        "bd-130l.6",
+        "bd-14la",
+        "bd-7nm3",
+        "bd-2v34",
+        "bd-3tmk",
+        "bd-3fu8",
+        "bd-130l.5",
+        "bd-39y4.8",
+        "bd-3tmk.4",
+        "bd-1i67.5",
+        "bd-950w",
+        "bd-39y4.4",
+        "bd-22fb",
+        "bd-130l",
+        "bd-1i67.6",
+        "bd-y6fw",
+        "bd-39y4.7",
+        "bd-l8x9.5.4",
+        "bd-10ck",
+        "bd-39vx.1"
+      ]
+    },
+    {
+      "sha": "ea64ee99db327fda439cb5261412a2672fb46b15",
+      "date": "2026-02-02T22:17:47-05:00",
+      "message": "feat(demo): add Performance HUD overlay + 24 tests (bd-3k3x.2, bd-3k3x.6)",
+      "beads_added": [
+        "bd-3k3x.2",
+        "bd-1n5t.2",
+        "bd-2lus.7",
+        "bd-1i67",
+        "bd-30g1.1",
+        "bd-2my1.2",
+        "bd-39y4.8",
+        "bd-3k3x.6",
+        "bd-3tmk.4",
+        "bd-1n5t.1",
+        "bd-2my1.5",
+        "bd-39y4.4",
+        "bd-3tmk.5",
+        "bd-1n5t.4",
+        "bd-1i67.6",
+        "bd-2my1.6",
+        "bd-1n5t",
+        "bd-1n5t.3"
+      ]
+    },
+    {
+      "sha": "f40b7ef42bbd90d63f8fe9dcbac7daf2b8df5500",
+      "date": "2026-02-02T22:19:55-05:00",
+      "message": "feat(widgets): add focus management system + alloc budget fix",
+      "beads_added": [
+        "bd-2bzl"
+      ]
+    },
+    {
+      "sha": "760978f8898e232702d07a09bd5a57debacd811d",
+      "date": "2026-02-02T22:29:30-05:00",
+      "message": "feat(text-effects): add StyledMultiLine for AsciiArt + effects integration (bd-2bzl)",
+      "beads_added": [
+        "bd-k4lj.1",
+        "bd-1csc.1",
+        "bd-1n5t.5",
+        "bd-1csc.2",
+        "bd-1rz0.4.1",
+        "bd-2bzl",
+        "bd-1n5t.6",
+        "bd-3vbf.16",
+        "bd-1b5h.2",
+        "bd-2lus.3"
+      ]
+    },
+    {
+      "sha": "ba9e53c7e91238d64b3e9918470885b498a86a1d",
+      "date": "2026-02-02T22:56:05-05:00",
+      "message": "feat(widgets): implement MeasurableWidget for complex widgets (bd-2dow.4)",
+      "beads_added": [
+        "bd-2ueu.2",
+        "bd-28rb",
+        "bd-1rz0.4",
+        "bd-2vne.1",
+        "bd-ic6i.1",
+        "bd-l8x9.1.3",
+        "bd-12f4",
+        "bd-3vbf",
+        "bd-39y4.6",
+        "bd-2vne.2",
+        "bd-39y4.9",
+        "bd-k4lj",
+        "bd-1b5h.3",
+        "bd-l8x9",
+        "bd-2qbx.1",
+        "bd-1nac",
+        "bd-2lus.4",
+        "bd-2ueu.1",
+        "bd-39y4",
+        "bd-1csc.2",
+        "bd-1eco",
+        "bd-2lus",
+        "bd-2dow",
+        "bd-3vbf.31",
+        "bd-1rz0",
+        "bd-17h9",
+        "bd-1n5t.6",
+        "bd-3tmk.5",
+        "bd-3o1l",
+        "bd-1b5h",
+        "bd-1n5t",
+        "bd-3hsz",
+        "bd-1csc",
+        "bd-39vx",
+        "bd-2lus.3",
+        "bd-1csc.3",
+        "bd-2dow.4",
+        "bd-1b5h.7"
+      ]
+    },
+    {
+      "sha": "9a24a637185c6b8008286813966f1f6665091823",
+      "date": "2026-02-02T22:59:23-05:00",
+      "message": "feat(ftui-core): add key sequence interpreter (bd-2vne.2)",
+      "beads_added": [
+        "bd-2ueu.2",
+        "bd-38f8",
+        "bd-2vne.2",
+        "bd-l8x9.2.5",
+        "bd-2vne.6",
+        "bd-11ck"
+      ]
+    },
+    {
+      "sha": "7f44ad2ae2cfffcb3f30bec628d281ab58e3b104",
+      "date": "2026-02-02T23:03:57-05:00",
+      "message": "feat(visual-fx): implement StackedFx compositor for multi-layer backdrops (bd-l8x9.2.5)",
+      "beads_added": [
+        "bd-l8x9.2.5",
+        "bd-2dow.6",
+        "bd-12o8.3",
+        "bd-2ueu.3"
+      ]
+    },
+    {
+      "sha": "30fdb5bc4e531e76dedb45d7d27af6aace22ec3f",
+      "date": "2026-02-02T23:09:01-05:00",
+      "message": "feat: multi-agent collaborative development updates",
+      "beads_added": [
+        "bd-2vne.7"
+      ]
+    },
+    {
+      "sha": "52af96009635da44006c954719b4f302fb9818e9",
+      "date": "2026-02-02T23:09:53-05:00",
+      "message": "chore: sync incremental multi-agent changes",
+      "beads_added": [
+        "bd-2vne.3",
+        "bd-2ueu.5",
+        "bd-2ueu.4"
+      ]
+    },
+    {
+      "sha": "c66a7116a4dd7551a2063e13b955879d430cbef9",
+      "date": "2026-02-02T23:15:31-05:00",
+      "message": "chore: sync concurrent multi-agent workspace changes",
+      "beads_added": [
+        "bd-2ueu.5"
+      ]
+    },
+    {
+      "sha": "64953ad3e0cb764831ee0eb1af4264b56ac31735",
+      "date": "2026-02-02T23:15:53-05:00",
+      "message": "chore: sync final multi-agent changes",
+      "beads_added": [
+        "bd-l8x9.3.3",
+        "bd-l8x9.3.2"
+      ]
+    },
+    {
+      "sha": "1b424fa396d04fbbce6b08a6d66e339f05796981",
+      "date": "2026-02-02T23:17:41-05:00",
+      "message": "chore: sync multi-agent workspace updates",
+      "beads_added": [
+        "bd-11ck.3"
+      ]
+    },
+    {
+      "sha": "0504e777ed64b65f5b94e10eedb1b52347ffbb7f",
+      "date": "2026-02-02T23:22:23-05:00",
+      "message": "chore: sync multi-agent workspace changes",
+      "beads_added": [
+        "bd-2vne.4",
+        "bd-1rz0.4.4",
+        "bd-l8x9.3.3",
+        "bd-l8x9.3.2",
+        "bd-2dow.7"
+      ]
+    },
+    {
+      "sha": "2761d910449c26521a0ca147313c024b99b3b987",
+      "date": "2026-02-02T23:25:10-05:00",
+      "message": "feat(benchmark): add DoubleBuffer swap benchmarks and E2E script (bd-1rz0.4.4)",
+      "beads_added": [
+        "bd-l8x9.7",
+        "bd-1rz0.4.4",
+        "bd-2dow.8",
+        "bd-l8x9.3",
+        "bd-3vbf.12",
+        "bd-l8x9.5.2",
+        "bd-l8x9.9.1"
+      ]
+    },
+    {
+      "sha": "f0b4b23c3e08520239becb921eb6c15692494026",
+      "date": "2026-02-02T23:33:41-05:00",
+      "message": "test(visual-fx): add backdrop composition unit tests (bd-l8x9.8.5)",
+      "beads_added": [
+        "bd-l8x9.11",
+        "bd-l8x9.6",
+        "bd-2vne",
+        "bd-3vbf.17",
+        "bd-2dow.8",
+        "bd-l8x9.8.5",
+        "bd-2vne.8"
+      ]
+    },
+    {
+      "sha": "1345f1d0890b25ceafe7054fedd455965386c648",
+      "date": "2026-02-02T23:42:34-05:00",
+      "message": "feat(validation): add async deadline controller with survival analysis (bd-32x8)",
+      "beads_added": [
+        "bd-32x8",
+        "bd-11ck.2",
+        "bd-36k2",
+        "bd-3emq",
+        "bd-vzjn",
+        "bd-9n09",
+        "bd-3cwi",
+        "bd-1z02.7",
+        "bd-11ck.4"
+      ]
+    },
+    {
+      "sha": "5d813fe7bdb8a0f8b6cc0a43b2757df6b847f509",
+      "date": "2026-02-02T23:44:43-05:00",
+      "message": "feat(text-effects): add gradient LUT optimization + multi-agent sync (bd-vzjn)",
+      "beads_added": [
+        "bd-vzjn",
+        "bd-gyi5",
+        "bd-11ck.5",
+        "bd-2qag",
+        "bd-11ck.4"
+      ]
+    },
+    {
+      "sha": "a79e4a9ed3a0783c17a442dbdc19331e56563f9e",
+      "date": "2026-02-02T23:52:52-05:00",
+      "message": "feat(runtime): add schedule trace golden infrastructure (bd-gyi5)",
+      "beads_added": [
+        "bd-1rz0.4",
+        "bd-30g1.4",
+        "bd-11ck.2",
+        "bd-bksf",
+        "bd-36k2",
+        "bd-3emq",
+        "bd-30g1.2",
+        "bd-1rz0.7",
+        "bd-atwq",
+        "bd-gyi5",
+        "bd-11ck.5",
+        "bd-32lt",
+        "bd-2qag",
+        "bd-2j71",
+        "bd-l8x9.5.2"
+      ]
+    },
+    {
+      "sha": "1617a3b78e87468ceb46faf4bf29cc9721159f6a",
+      "date": "2026-02-03T00:01:28-05:00",
+      "message": "fix(telemetry): correct doc examples for from_env() return type",
+      "beads_added": [
+        "bd-1z02.3",
+        "bd-1z02.7",
+        "bd-31go",
+        "bd-1plj",
+        "bd-1z02.8",
+        "bd-ic6i.2"
+      ]
+    },
+    {
+      "sha": "4685f9fedf4ec3cbe02942b11f87d2d3da56d2c6",
+      "date": "2026-02-03T00:01:50-05:00",
+      "message": "feat(core, render): enhance terminal capabilities and spatial rendering",
+      "beads_added": [
+        "bd-3vbf.31"
+      ]
+    },
+    {
+      "sha": "5de175237befb2bb4f0794c985108382d6a0dae9",
+      "date": "2026-02-03T00:02:18-05:00",
+      "message": "feat(widgets): enhance help registry system",
+      "beads_added": [
+        "bd-30g1.4"
+      ]
+    },
+    {
+      "sha": "cb65bf096a0268b30d25e9d41efba9fc2de524a4",
+      "date": "2026-02-03T00:03:26-05:00",
+      "message": "chore: sync incremental multi-agent changes",
+      "beads_added": [
+        "bd-atwq"
+      ]
+    },
+    {
+      "sha": "3f0a03115242902efbb3b254d51d3a6ac8be57a1",
+      "date": "2026-02-03T00:06:26-05:00",
+      "message": "feat: multi-agent collaborative updates batch",
+      "beads_added": [
+        "bd-1z02.10",
+        "bd-2dow.6"
+      ]
+    },
+    {
+      "sha": "34ffb36fbc8656ae182aee64f90f3dc04b166fa9",
+      "date": "2026-02-03T00:06:37-05:00",
+      "message": "chore: sync latest multi-agent changes",
+      "beads_added": [
+        "bd-3vbf.7"
+      ]
+    },
+    {
+      "sha": "64790907ccca564cc14d1562ccc636723f434443",
+      "date": "2026-02-03T00:14:00-05:00",
+      "message": "chore: sync latest multi-agent changes",
+      "beads_added": [
+        "bd-1rz0.14"
+      ]
+    },
+    {
+      "sha": "263260a6b98b1fff873941806af25103acc75200",
+      "date": "2026-02-03T00:15:03-05:00",
+      "message": "feat: multi-agent sync - text effects expansion and virtualization",
+      "beads_added": [
+        "bd-3vbf.18",
+        "bd-1rz0.18"
+      ]
+    },
+    {
+      "sha": "0382244e68b0db7d1ce925d854b2a4f6b06b4db9",
+      "date": "2026-02-03T00:35:28-05:00",
+      "message": "docs: update review report and fixes summary, sync beads",
+      "beads_added": [
+        "bd-1z02.4",
+        "bd-3r87",
+        "bd-12o8",
+        "bd-2ueu.6",
+        "bd-k4lj.3",
+        "bd-k4lj.2",
+        "bd-1rz0.14",
+        "bd-1rz0.10",
+        "bd-k4lj.4",
+        "bd-34pj.3",
+        "bd-1z02.9",
+        "bd-12o8.1"
+      ]
+    },
+    {
+      "sha": "53e8d1dd8632d1c304a62db1fe96a751596adc37",
+      "date": "2026-02-03T00:41:23-05:00",
+      "message": "docs: add fixes 62-63 for TextInput scroll and inline mode ghosting",
+      "beads_added": [
+        "bd-34pj.5"
+      ]
+    },
+    {
+      "sha": "04a559976d0787067d19cca85f2052c90ec74120",
+      "date": "2026-02-03T00:41:48-05:00",
+      "message": "refactor: expand let-chains and tooltip geometry API cleanup",
+      "beads_added": [
+        "bd-2zbk.7"
+      ]
+    },
+    {
+      "sha": "eec46716595f55cdb9866406889ba8815c8fa74c",
+      "date": "2026-02-03T01:00:19-05:00",
+      "message": "feat(help): implement guided tour system",
+      "beads_added": [
+        "bd-1rz0.24",
+        "bd-3vbf.21",
+        "bd-2zbk.3",
+        "bd-34pj",
+        "bd-2zbk.1",
+        "bd-2qbx.4",
+        "bd-2zbk.8",
+        "bd-2qbx.5",
+        "bd-12o8.4",
+        "bd-3vbf.5",
+        "bd-34pj.6",
+        "bd-1b5h.10"
+      ]
+    },
+    {
+      "sha": "74c09de7571cbb88445c8d90ede2729ecc322432",
+      "date": "2026-02-03T02:25:39-05:00",
+      "message": "feat(bench): add MetaballsFx performance benchmarks (bd-l8x9.9.2)",
+      "beads_added": [
+        "bd-l8x9.2.1",
+        "bd-1ai1",
+        "bd-13pq.2",
+        "bd-16v2",
+        "bd-39vx.4",
+        "bd-1nac.4",
+        "bd-13pq.3",
+        "bd-1csc.4",
+        "bd-1b5h.5",
+        "bd-1rz0.12",
+        "bd-3vbf.24",
+        "bd-39vx.6",
+        "bd-3tmk",
+        "bd-13pq.1",
+        "bd-11ck.6",
+        "bd-12o8.5",
+        "bd-bksf.1",
+        "bd-39vx.5",
+        "bd-2o55",
+        "bd-39vx.3",
+        "bd-l8x9.9.4",
+        "bd-31q3",
+        "bd-1nac.5",
+        "bd-1rz0.2.4",
+        "bd-3vbf.21",
+        "bd-1ai1.2",
+        "bd-3vbf.22",
+        "bd-2zbk.4",
+        "bd-3vbf.23",
+        "bd-11ck.7",
+        "bd-13pq.8",
+        "bd-2lus.8",
+        "bd-1csc.5",
+        "bd-1ai1.1",
+        "bd-13pq.5",
+        "bd-1rzr",
+        "bd-1ai1.4",
+        "bd-13pq.4",
+        "bd-1rz0.30",
+        "bd-39vx.2",
+        "bd-1ai1.5",
+        "bd-l8x9.8",
+        "bd-1csc.6",
+        "bd-2zbk.1",
+        "bd-l8x9.6.1",
+        "bd-l8x9.3.1",
+        "bd-13pq.7",
+        "bd-3vbf.20",
+        "bd-1ai1.3",
+        "bd-1b5h.4",
+        "bd-2zbk.2",
+        "bd-2qbx.5",
+        "bd-3vbf.6",
+        "bd-l8x9.4.1",
+        "bd-l8x9.4.3",
+        "bd-13pq",
+        "bd-vu0o.4",
+        "bd-1z02.5",
+        "bd-1rz0.15",
+        "bd-1b5h.8",
+        "bd-12o8.4",
+        "bd-1b5h.10",
+        "bd-3tmk.6",
+        "bd-3vbf.29",
+        "bd-l8x9.9.2",
+        "bd-2qbx.6",
+        "bd-12o8.8",
+        "bd-1rz0.4.2",
+        "bd-1csc.3",
+        "bd-l8x9.9.3",
+        "bd-39vx.1",
+        "bd-12o8.7"
+      ]
+    },
+    {
+      "sha": "ed90658216653fb38af9166d4925dafbbf6be5b8",
+      "date": "2026-02-03T02:36:20-05:00",
+      "message": "feat(bench): add PlasmaFx performance benchmark (bd-l8x9.9.3)",
+      "beads_added": [
+        "bd-1z02.6",
+        "bd-1b5h.6",
+        "bd-vu0o",
+        "bd-1z02.11",
+        "bd-1nac.5",
+        "bd-13pq.8",
+        "bd-bksf.3",
+        "bd-1rz0.30",
+        "bd-1z02.5",
+        "bd-l8x9.9.3"
+      ]
+    },
+    {
+      "sha": "c0f87aa25e2887145ce06ca00330a127829954a6",
+      "date": "2026-02-03T09:31:21-05:00",
+      "message": "chore: sync concurrent agent changes (app, bench_budget, beads)",
+      "beads_added": [
+        "bd-vu0o.2"
+      ]
+    },
+    {
+      "sha": "c49f07f25ac455fcb26283e427fdf879324576bd",
+      "date": "2026-02-03T09:31:42-05:00",
+      "message": "chore: sync concurrent changes (Cargo.toml, theme_studio_bench, beads)",
+      "beads_added": [
+        "bd-l8x9.11"
+      ]
+    },
+    {
+      "sha": "955ed3fc618cad2745638a18925b858a0174a28e",
+      "date": "2026-02-03T09:32:02-05:00",
+      "message": "chore: sync concurrent multi-agent development (theme_studio, theme)",
+      "beads_added": [
+        "bd-l8x9.12"
+      ]
+    },
+    {
+      "sha": "11ad25155e520413aa49daa2a527900ca080e741",
+      "date": "2026-02-03T09:35:43-05:00",
+      "message": "fix(bench): correct theme_studio_bench compilation issues",
+      "beads_added": [
+        "bd-l8x9.12",
+        "bd-vu0o.5",
+        "bd-l8x9.8.4",
+        "bd-l8x9.4.2",
+        "bd-l8x9.9",
+        "bd-l8x9.13",
+        "bd-l8x9.14"
+      ]
+    },
+    {
+      "sha": "ced84ddc0cb30dcc3b0f4559996ea36922e9868f",
+      "date": "2026-02-03T09:44:20-05:00",
+      "message": "feat(runtime): further input fairness and program refinements",
+      "beads_added": [
+        "bd-l8x9.4.2"
+      ]
+    },
+    {
+      "sha": "3394d7a37463efc5e2431570b41d3c493d55670c",
+      "date": "2026-02-03T09:45:22-05:00",
+      "message": "feat(runtime): add error recovery to input fairness",
+      "beads_added": [
+        "bd-vu0o.5"
+      ]
+    },
+    {
+      "sha": "0899327345a28f68a7f8518d3938a5212f9343a3",
+      "date": "2026-02-03T09:49:53-05:00",
+      "message": "feat: comprehensive update with a11y snapshots and test enhancements",
+      "beads_added": [
+        "bd-l8x9.9",
+        "bd-l8x9.9.1"
+      ]
+    },
+    {
+      "sha": "850de39c44741b879f950e2756c9bc2b8cf25d77",
+      "date": "2026-02-03T09:50:31-05:00",
+      "message": "feat(bench): add backdrop apply cost benchmarks (bd-l8x9.9.1)",
+      "beads_added": [
+        "bd-1rz0.7",
+        "bd-1rz0.17",
+        "bd-vu0o.6"
+      ]
+    },
+    {
+      "sha": "bc01d92438ea8bddb78458b3c108d1ec0e99a4f1",
+      "date": "2026-02-03T09:51:28-05:00",
+      "message": "test: update a11y and theme studio snapshots",
+      "beads_added": [
+        "bd-1rz0.11",
+        "bd-1rz0.26",
+        "bd-bksf.6"
+      ]
+    },
+    {
+      "sha": "846168ea24b6239f3fc30d6f043773bfbe59105b",
+      "date": "2026-02-03T09:52:20-05:00",
+      "message": "refactor: remove redundant a11y snapshots and update test infrastructure",
+      "beads_added": [
+        "bd-1rz0.26",
+        "bd-32my.5",
+        "bd-1rz0.19"
+      ]
+    },
+    {
+      "sha": "55099115cc6381d0cb460fd481b6dc0c42ed3d33",
+      "date": "2026-02-03T09:54:01-05:00",
+      "message": "fix: screen refinements and snapshot updates",
+      "beads_added": [
+        "bd-1rz0.21"
+      ]
+    },
+    {
+      "sha": "cabd1c8f518054d50e7585a5009121f95afe0069",
+      "date": "2026-02-03T09:54:51-05:00",
+      "message": "chore: rolling sync of concurrent agent changes",
+      "beads_added": [
+        "bd-32my.3"
+      ]
+    },
+    {
+      "sha": "6d6fe9701e40d5ae3ae3643f2ec6cf7946d5f302",
+      "date": "2026-02-03T09:56:04-05:00",
+      "message": "feat(runtime): add resize SLA module and continued refinements",
+      "beads_added": [
+        "bd-1rz0.9",
+        "bd-32my.5",
+        "bd-1rz0.15"
+      ]
+    },
+    {
+      "sha": "9b4e5b0bd02be0f93b5ec0611c59ec9c0aa3f0ac",
+      "date": "2026-02-03T09:56:36-05:00",
+      "message": "feat(demo-showcase): update layout_lab screen",
+      "beads_added": [
+        "bd-32my.4",
+        "bd-1rz0.10"
+      ]
+    },
+    {
+      "sha": "04d7947867be72df4b8d46402abb60ed058c977c",
+      "date": "2026-02-03T09:59:22-05:00",
+      "message": "feat: rolling updates from concurrent agents",
+      "beads_added": [
+        "bd-1rz0.27"
+      ]
+    },
+    {
+      "sha": "860c7dae353a2123c9d2a66dfd19ac080fbca17d",
+      "date": "2026-02-03T10:29:05-05:00",
+      "message": "feat: comprehensive screen and snapshot updates",
+      "beads_added": [
+        "bd-17h9.3",
+        "bd-vu0o.4"
+      ]
+    },
+    {
+      "sha": "aac063842ed2b1156e8a05f272d20bf78f26d4eb",
+      "date": "2026-02-03T11:30:00-05:00",
+      "message": "feat: comprehensive updates across render, runtime, widgets, and tests",
+      "beads_added": [
+        "bd-3k3x.5",
+        "bd-3k3x.8",
+        "bd-30g1.3",
+        "bd-3k3x.9"
+      ]
+    },
+    {
+      "sha": "5f3f203c7cf505036d309278cf5c9d3127043d61",
+      "date": "2026-02-03T11:31:27-05:00",
+      "message": "feat: core, layout, and test improvements",
+      "beads_added": [
+        "bd-30g1.5"
+      ]
+    },
+    {
+      "sha": "ecba47ad604d8cbe82aaa90215f6ba95f5290834",
+      "date": "2026-02-03T11:32:55-05:00",
+      "message": "feat: input parser and stateful widget updates",
+      "beads_added": [
+        "bd-1rz0.5.2"
+      ]
+    },
+    {
+      "sha": "ca83a70075a9579b2d055f04af07105307459831",
+      "date": "2026-02-03T11:33:53-05:00",
+      "message": "chore: rolling sync from concurrent agents",
+      "beads_added": [
+        "bd-3k3x.9"
+      ]
+    },
+    {
+      "sha": "7ae3882568bf34bbe2f0a1b63fc4b6525004aa7b",
+      "date": "2026-02-03T11:40:53-05:00",
+      "message": "feat: rolling updates from concurrent agents",
+      "beads_added": [
+        "bd-3vbf.17",
+        "bd-2o55.3",
+        "bd-30g1.5",
+        "bd-17h9.9",
+        "bd-l8x9.6.1",
+        "bd-1rz0.5.2"
+      ]
+    },
+    {
+      "sha": "52663ef72718554d270b58698a545fd7d52cff34",
+      "date": "2026-02-03T11:48:01-05:00",
+      "message": "docs: update fixes summary and sync beads",
+      "beads_added": [
+        "bd-l8x9.6",
+        "bd-2lus.4",
+        "bd-k4lj.4",
+        "bd-1rz0.18",
+        "bd-17h9.9",
+        "bd-l8x9.6.1",
+        "bd-l8x9.6.2",
+        "bd-30g1.6"
+      ]
+    },
+    {
+      "sha": "1b8acf0606d2fddf20d45b33c98049282fae50bd",
+      "date": "2026-02-03T11:49:22-05:00",
+      "message": "feat: rolling updates across core, runtime, harness, and extras",
+      "beads_added": [
+        "bd-30g1"
+      ]
+    },
+    {
+      "sha": "b4f9d4f1f61596e49ea1112ff750a5a00ea373e9",
+      "date": "2026-02-03T11:50:06-05:00",
+      "message": "chore: rolling sync from concurrent agents",
+      "beads_added": [
+        "bd-l8x9.5.3"
+      ]
+    },
+    {
+      "sha": "4aea483185f90bfc4f31f91300090b000572087e",
+      "date": "2026-02-03T11:52:22-05:00",
+      "message": "feat: comprehensive updates across render, extras, widgets, and tests",
+      "beads_added": [
+        "bd-a8wk"
+      ]
+    },
+    {
+      "sha": "a8691b61d9921ef3810600dc991ebcd3af0f50db",
+      "date": "2026-02-03T11:53:54-05:00",
+      "message": "feat(extras): update visual effects screen and GPU module",
+      "beads_added": [
+        "bd-ic6i.2"
+      ]
+    },
+    {
+      "sha": "bf7a614cd4744b6c142abff6b4deb29c10b44cf5",
+      "date": "2026-02-03T11:56:44-05:00",
+      "message": "chore: rolling sync from concurrent agents",
+      "beads_added": [
+        "bd-l8x9.5.3"
+      ]
+    },
+    {
+      "sha": "d840fd6fa1e9c70082445a512275bdd248291c18",
+      "date": "2026-02-03T11:57:25-05:00",
+      "message": "chore: rolling sync of concurrent agent changes",
+      "beads_added": [
+        "bd-l8x9.2.4"
+      ]
+    },
+    {
+      "sha": "657c2cd58cb5fd481ef37af9ed6cacc3f0416475",
+      "date": "2026-02-03T12:01:47-05:00",
+      "message": "test(extras): add PlasmaFx determinism and quality tests (bd-l8x9.4.3)",
+      "beads_added": [
+        "bd-l8x9.6.3",
+        "bd-2lus.4",
+        "bd-k4lj.4",
+        "bd-k4lj.5",
+        "bd-l8x9.6.2",
+        "bd-l8x9.4.3"
+      ]
+    },
+    {
+      "sha": "421c5b92a10c9628cf350589da7440f7b15cae19",
+      "date": "2026-02-03T12:30:23-05:00",
+      "message": "feat(text-effects): implement border/outline effects (bd-882b)",
+      "beads_added": [
+        "bd-k4lj.6",
+        "bd-3vbf.18",
+        "bd-882b",
+        "bd-12f4",
+        "bd-3vbf.19",
+        "bd-31q3",
+        "bd-2zbk.4",
+        "bd-2zbk",
+        "bd-k4lj.5",
+        "bd-2o55.1",
+        "bd-3hsz",
+        "bd-2j71",
+        "bd-3vbf.29"
+      ]
+    },
+    {
+      "sha": "e3c9d74e83d3a6b00cfc8e2749a5a0b5889cfabe",
+      "date": "2026-02-03T12:49:20-05:00",
+      "message": "feat(e2e): add drag-and-drop E2E test suite (bd-1csc.6)",
+      "beads_added": [
+        "bd-4r5h",
+        "bd-31q3",
+        "bd-13pq.5",
+        "bd-31go",
+        "bd-32lt",
+        "bd-2sog",
+        "bd-2o55.2",
+        "bd-32my.1",
+        "bd-13pq",
+        "bd-1b5h.8",
+        "bd-3sa7",
+        "bd-2j71",
+        "bd-12o8.8",
+        "bd-1b5h.7"
+      ]
+    },
+    {
+      "sha": "e62ce1c2e8a17c3e5c2eb1211ed9565a17fad753",
+      "date": "2026-02-03T13:34:20-05:00",
+      "message": "bd-5l3t: word wrap textarea + styled paragraph wrap",
+      "beads_added": [
+        "bd-3sa7.1",
+        "bd-3sa7.3",
+        "bd-3sa7.2",
+        "bd-2ki5",
+        "bd-101f",
+        "bd-12o8.5",
+        "bd-32my.2",
+        "bd-2o55.4",
+        "bd-2zbk.4",
+        "bd-2sog.1",
+        "bd-3sa7.5",
+        "bd-2sog.4",
+        "bd-3sa7.4",
+        "bd-2sog.2",
+        "bd-2sog",
+        "bd-1rz0.4.3",
+        "bd-32my.1",
+        "bd-3vbf.30",
+        "bd-3sa7",
+        "bd-12o8.8",
+        "bd-2sog.5",
+        "bd-a8wk"
+      ]
+    },
+    {
+      "sha": "18b0bc3f2aaa06acfd6cd8670c93161a04df4859",
+      "date": "2026-02-03T13:41:38-05:00",
+      "message": "docs: update session todo and sync beads",
+      "beads_added": [
+        "bd-3sa7.2",
+        "bd-17h9.8",
+        "bd-1csc.6",
+        "bd-2sog.3"
+      ]
+    },
+    {
+      "sha": "0c6bcf5219486f11d696b2ffc54b69bae999aacb",
+      "date": "2026-02-03T13:42:25-05:00",
+      "message": "feat: program runtime update with E2E test and docs",
+      "beads_added": [
+        "bd-1csc.6",
+        "bd-1b5h.8"
+      ]
+    },
+    {
+      "sha": "850988d2a2a107a2c429c27e0cd00ed3637c13b7",
+      "date": "2026-02-03T13:49:06-05:00",
+      "message": "feat: event coalescer, app, and inspector updates",
+      "beads_added": [
+        "bd-2o55.6"
+      ]
+    },
+    {
+      "sha": "b943f6b772c5bfa43d17342558c97678274e9f8f",
+      "date": "2026-02-03T13:49:49-05:00",
+      "message": "chore: rolling sync from concurrent agents",
+      "beads_added": [
+        "bd-1b5h"
+      ]
+    },
+    {
+      "sha": "4ca46b5512f7049dbfab013c784d6611f2be74a9",
+      "date": "2026-02-03T13:50:11-05:00",
+      "message": "chore: capture latest concurrent agent changes",
+      "beads_added": [
+        "bd-2lus",
+        "bd-2dow"
+      ]
+    },
+    {
+      "sha": "f8557868890df3024a1fe228696c76683edc6093",
+      "date": "2026-02-03T14:01:59-05:00",
+      "message": "feat(render): flicker/tear detection integration tests and buffer dirty tracking fixes",
+      "beads_added": [
+        "bd-l8x9.8.3",
+        "bd-11ck.6",
+        "bd-l8x9.7",
+        "bd-3sa7.6",
+        "bd-l8x9.8.2",
+        "bd-3vbf",
+        "bd-l8x9",
+        "bd-2zbk.6",
+        "bd-l8x9.10",
+        "bd-1rz0.18",
+        "bd-11ck",
+        "bd-2sog.6"
+      ]
+    },
+    {
+      "sha": "aa817d50b5cb446862cf14b6e7b3851a51982fb6",
+      "date": "2026-02-03T14:09:58-05:00",
+      "message": "feat(render): no-flicker proof sketch with 23 counterexample tests",
+      "beads_added": [
+        "bd-l8x9.8.3",
+        "bd-1rz0.29",
+        "bd-2zbk.6",
+        "bd-2qbx.3",
+        "bd-32my.6",
+        "bd-bksf.4",
+        "bd-1rz0",
+        "bd-1rz0.20",
+        "bd-2qbx.6",
+        "bd-12o8.6"
+      ]
+    },
+    {
+      "sha": "f7eaefa1cf90bd55b4a6d66b5ab03cf252631cf8",
+      "date": "2026-02-03T14:18:11-05:00",
+      "message": "feat(tests): add terminal E2E and layout composer UX/A11y test suites",
+      "beads_added": [
+        "bd-1rz0.31",
+        "bd-3k3x",
+        "bd-1rz0.29",
+        "bd-2o55",
+        "bd-32my.4",
+        "bd-2ueu.6",
+        "bd-17h9.8",
+        "bd-2qbx",
+        "bd-2zbk",
+        "bd-l8x9.10",
+        "bd-32my",
+        "bd-1csc",
+        "bd-32my.3",
+        "bd-2qbx.6"
+      ]
+    },
+    {
+      "sha": "e02aea4a168a8349195cd7869024bda7db12ed96",
+      "date": "2026-02-03T14:20:23-05:00",
+      "message": "chore: update session notes and sync beads",
+      "beads_added": [
+        "bd-2ueu",
+        "bd-ic6i.4"
+      ]
+    },
+    {
+      "sha": "1abf2991d3ee9efa7ff4d57b32bbb4f28d25ae8a",
+      "date": "2026-02-03T14:21:01-05:00",
+      "message": "fix(runtime): complete resize coalescer migration in program.rs",
+      "beads_added": [
+        "bd-bksf.6"
+      ]
+    },
+    {
+      "sha": "b4380f33ca0a8c708ddbfa83dab1a93e91d74fa6",
+      "date": "2026-02-03T14:24:08-05:00",
+      "message": "test(harness): add resize storm e2e test for coalescer robustness",
+      "beads_added": [
+        "bd-bksf",
+        "bd-1rz0.28"
+      ]
+    },
+    {
+      "sha": "92f66c4d573fc0dbef23eba0856a0f5bf02e0fdc",
+      "date": "2026-02-03T14:25:55-05:00",
+      "message": "feat(demo): implement Performance HUD screen with real-time metrics",
+      "beads_added": [
+        "bd-1rz0.31",
+        "bd-3k3x",
+        "bd-3sa7.6",
+        "bd-ic6i.4"
+      ]
+    },
+    {
+      "sha": "ca66c1cbdc5188dcd973da0d3ccc632935803a29",
+      "date": "2026-02-03T14:27:00-05:00",
+      "message": "feat(render): MPC vs PI controller evaluation tests (bd-1rz0.31)",
+      "beads_added": [
+        "bd-1rz0.9"
+      ]
+    },
+    {
+      "sha": "c71922ef572235d79ee4d003a158bf58d671e58a",
+      "date": "2026-02-03T14:34:30-05:00",
+      "message": "feat(layout): add RTL layout mirroring support (bd-ic6i.3)",
+      "beads_added": [
+        "bd-ic6i.3",
+        "bd-3vbf.27",
+        "bd-1rz0.25",
+        "bd-ic6i.2"
+      ]
+    },
+    {
+      "sha": "1eac21c7b897a6c28c8e802680e4046ad7ae72d7",
+      "date": "2026-02-03T14:40:38-05:00",
+      "message": "chore(beads): sync session state and close bd-3vbf.27",
+      "beads_added": [
+        "bd-1rz0.22",
+        "bd-1rz0.28",
+        "bd-17h9.4",
+        "bd-ic6i.5",
+        "bd-3vbf.27",
+        "bd-17h9"
+      ]
+    },
+    {
+      "sha": "09427efdba2db7e88cdf57a871272bffd0538493",
+      "date": "2026-02-03T14:41:57-05:00",
+      "message": "chore: sync beads and i18n demo",
+      "beads_added": [
+        "bd-k4lj.6",
+        "bd-1rz0.25"
+      ]
+    },
+    {
+      "sha": "69bcd3d1c522a70f053bcc87d177c5ca2332f851",
+      "date": "2026-02-03T14:51:53-05:00",
+      "message": "feat(i18n): finalize i18n demo screen and close bd-ic6i.5",
+      "beads_added": [
+        "bd-k4lj",
+        "bd-ic6i.5"
+      ]
+    },
+    {
+      "sha": "f89869c35dee3cf6e1142d065c292a823c09164b",
+      "date": "2026-02-03T14:58:49-05:00",
+      "message": "chore: sync session work — inline reflow fixes, i18n E2E tests, perf baselines",
+      "beads_added": [
+        "bd-1n06",
+        "bd-ic6i",
+        "bd-ic6i.6",
+        "bd-1rz0.4.3"
+      ]
+    },
+    {
+      "sha": "c9638e3ac67bf90e76c808366a60296f2de7afb9",
+      "date": "2026-02-03T17:09:22-05:00",
+      "message": "chore: minor test cleanup and beads sync",
+      "beads_added": [
+        "bd-1rz0.21"
+      ]
+    },
+    {
+      "sha": "5e9e29233cf1c5afa8a38f7016f7f7f0e386f1a4",
+      "date": "2026-02-03T21:37:30-05:00",
+      "message": "chore(beads): update issue tracking state",
+      "beads_added": [
+        "bd-3e1t.2.4",
+        "bd-3e1t.2.6",
+        "bd-3e1t",
+        "bd-3e1t.3",
+        "bd-3e1t.4.3",
+        "bd-3e1t.4.4",
+        "bd-3e1t.4.17",
+        "bd-11ee",
+        "bd-3e1t.4.6",
+        "bd-3e1t.4.8",
+        "bd-3e1t.4.7",
+        "bd-3e1t.4.9",
+        "bd-3e1t.4.2"
+      ]
+    },
+    {
+      "sha": "f04205ec7c90957e750f2dcbac087642b0a5a5ef",
+      "date": "2026-02-03T22:38:23-05:00",
+      "message": "bd-3e1t.9.2 widget signal plumbing",
+      "beads_added": [
+        "bd-3e1t.4.11"
+      ]
+    },
+    {
+      "sha": "bfe93f22abdb6e83e291b5e48a746ec171e53562",
+      "date": "2026-02-03T23:06:58-05:00",
+      "message": "bd-3e1t.9.6 widget refresh guardrails",
+      "beads_added": [
+        "bd-3e1t.9.3",
+        "bd-3e1t.7.3",
+        "bd-iuvb.6",
+        "bd-3e1t.6.3",
+        "bd-3e1t.6.5",
+        "bd-iuvb.9",
+        "bd-3e1t.6.2",
+        "bd-iuvb.8",
+        "bd-3e1t.8.2",
+        "bd-3e1t.7.2",
+        "bd-3e1t.9.6",
+        "bd-3e1t.10.2",
+        "bd-3e1t.6.6"
+      ]
+    },
+    {
+      "sha": "c701a5212f822a1e1b4ce4ea49d100737c0518ba",
+      "date": "2026-02-03T23:17:52-05:00",
+      "message": "bd-3e1t.9.4 greedy vs fifo tests",
+      "beads_added": [
+        "bd-3e1t.10.3",
+        "bd-iuvb.10",
+        "bd-3e1t.10.6",
+        "bd-3e1t.9.4"
+      ]
+    },
+    {
+      "sha": "a3c680754c8e6969937d783f49dc6be38dd00bc4",
+      "date": "2026-02-03T23:31:53-05:00",
+      "message": "bd-3e1t.9.5 budgeted refresh e2e",
+      "beads_added": [
+        "bd-iuvb.11",
+        "bd-3e1t.10.6",
+        "bd-3e1t.6.5",
+        "bd-3e1t.6.2",
+        "bd-3e1t.9.5"
+      ]
+    },
+    {
+      "sha": "63ad3c809f0feb6d1e112707159ed998cf2b58cb",
+      "date": "2026-02-04T00:23:29-05:00",
+      "message": "docs: update documentation, session notes, and specifications",
+      "beads_added": [
+        "bd-3e1t.10.4",
+        "bd-3e1t.10.3",
+        "bd-3e1t.8",
+        "bd-3e1t.7",
+        "bd-3e1t.7.3",
+        "bd-iuvb.12",
+        "bd-iuvb.14",
+        "bd-iuvb.10",
+        "bd-3e1t.10",
+        "bd-iuvb.13",
+        "bd-3e1t.6.8",
+        "bd-3e1t.7.8",
+        "bd-iuvb.3",
+        "bd-3e1t.6.4",
+        "bd-iuvb.9",
+        "bd-3e1t.8.3",
+        "bd-3e1t.7.6"
+      ]
+    },
+    {
+      "sha": "185d14a8afdde49a3f848081a232fbc5e6366bf0",
+      "date": "2026-02-04T00:40:34-05:00",
+      "message": "bd-3e1t.6.8 span config",
+      "beads_added": [
+        "bd-3e1t.9",
+        "bd-3e1t.4.13",
+        "bd-3e1t.4.12",
+        "bd-3e1t.4.3",
+        "bd-3e1t.6.8",
+        "bd-3e1t.7.5",
+        "bd-3e1t.4.14"
+      ]
+    },
+    {
+      "sha": "7e0898b72666289bd3ce8af260430a5ae42dea37",
+      "date": "2026-02-04T01:18:28-05:00",
+      "message": "bd-iuvb.2 determinism lab demo",
+      "beads_added": [
+        "bd-3e1t.7.4",
+        "bd-3e1t.6.7",
+        "bd-3e1t.4.16",
+        "bd-iuvb.2",
+        "bd-iuvb.5",
+        "bd-3e1t.4.14",
+        "bd-3e1t.4.8"
+      ]
+    },
+    {
+      "sha": "00b83fbee3d1c69796e380c900f134e5a28213cc",
+      "date": "2026-02-04T01:43:28-05:00",
+      "message": "Update demo visuals and runtime fixes",
+      "beads_added": [
+        "bd-3e1t.4.13",
+        "bd-3e1t.4.15",
+        "bd-iuvb.2"
+      ]
+    },
+    {
+      "sha": "d77c7d373cb920615f7b9d24ef782a98d6d45050",
+      "date": "2026-02-04T02:08:32-05:00",
+      "message": "bd-237o: markdown table rendering fixes",
+      "beads_added": [
+        "bd-3e1t.7.7",
+        "bd-3e1t.7.8",
+        "bd-237o"
+      ]
+    },
+    {
+      "sha": "0275034f27f8b6e2ade9dface0678a84faa36daa",
+      "date": "2026-02-04T03:23:36-05:00",
+      "message": "Demo showcase fixes and updates (bd-1e3w)",
+      "beads_added": [
+        "bd-3e1t.8.4",
+        "bd-3e1t.4.10",
+        "bd-iuvb.1",
+        "bd-iuvb",
+        "bd-3e1t.8.6",
+        "bd-3e1t.8.3",
+        "bd-3e1t.4"
+      ]
+    },
+    {
+      "sha": "4d6e13f2fb1d73c1a06830bda47a2ee930453b0f",
+      "date": "2026-02-04T13:43:18-05:00",
+      "message": "bd-3e1t.5 lazy-init doom/quake vfx state",
+      "beads_added": [
+        "bd-3e1t.8.4",
+        "bd-33cb"
+      ]
+    },
+    {
+      "sha": "f59fb5f80cf90a86ea427f83b38dc13ae1fd70ee",
+      "date": "2026-02-04T14:13:07-05:00",
+      "message": "bd-1e3w: demo nav hint + vfx visibility",
+      "beads_added": [
+        "bd-2dui",
+        "bd-33cb",
+        "bd-2k018.2",
+        "bd-2k018.1"
+      ]
+    },
+    {
+      "sha": "8e74c4ed3cbefbb535c6268184175e9a4fdb1c90",
+      "date": "2026-02-04T15:22:13-05:00",
+      "message": "chore: sync beads and session notes from concurrent agents",
+      "beads_added": [
+        "bd-2me70",
+        "bd-2k018.4",
+        "bd-2e1qh"
+      ]
+    },
+    {
+      "sha": "5f41709e99aea0d7231865b22afe3d3ad3c2ea33",
+      "date": "2026-02-04T15:23:03-05:00",
+      "message": "chore: final concurrent agent sync (style module exports, table theme)",
+      "beads_added": [
+        "bd-16052"
+      ]
+    },
+    {
+      "sha": "2020c901415ec051a2c07bdb614e48d679ee75ef",
+      "date": "2026-02-04T16:35:30-05:00",
+      "message": "docs: crates.io publish prep + crate docs (bd-3lul4)",
+      "beads_added": [
+        "bd-2k018.8",
+        "bd-3ruu3",
+        "bd-2k018.13",
+        "bd-3isi7",
+        "bd-2k018.20",
+        "bd-3e1t.5.5",
+        "bd-2k018.23",
+        "bd-pt0dv",
+        "bd-2k018.22",
+        "bd-34298",
+        "bd-m2hhq",
+        "bd-3jq7x",
+        "bd-2k018.25"
+      ]
+    },
+    {
+      "sha": "1e12d53ee78f948139b98581a7ea244697f05968",
+      "date": "2026-02-04T16:58:43-05:00",
+      "message": "chore: CI workflow updates, beads sync, session notes",
+      "beads_added": [
+        "bd-1av4o.1",
+        "bd-2k018.8",
+        "bd-3abcg",
+        "bd-7m9zo",
+        "bd-1av4o.13.3",
+        "bd-17unx",
+        "bd-2bnk",
+        "bd-1av4o.21",
+        "bd-1av4o.22",
+        "bd-k57as",
+        "bd-1av4o.13.4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-02-04T17:55:09.96950709-05:00",
+    "phase2_ready": true,
+    "issue_count": 1168,
+    "compute_time_ms": 1
+  },
+  "quick_ref": {
+    "open_count": 149,
+    "actionable_count": 89,
+    "blocked_count": 60,
+    "in_progress_count": 39,
+    "top_picks": [
+      {
+        "id": "bd-315zw",
+        "title": "Mermaid Engine Config + Feature Flags",
+        "score": 0.2290555891728268,
+        "reasons": [
+          "📊 High centrality in dependency graph (PageRank: 32%)",
+          "🚧 In progress - already being worked",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 0
+      },
+      {
+        "id": "bd-1av4o.13.2",
+        "title": "E2E scripts use deterministic fixture helpers",
+        "score": 0.19214834574572304,
+        "reasons": [
+          "🔓 Unblocks 2 item(s): bd-1av4o.14, bd-1av4o.14.7",
+          "✅ Currently unclaimed - available for work",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 2
+      },
+      {
+        "id": "bd-3monr",
+        "title": "Mermaid Compatibility Matrix + Fallback Policy",
+        "score": 0.1604292271741102,
+        "reasons": [
+          "✅ Currently unclaimed - available for work"
+        ],
+        "unblocks": 0
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "bd-1av4o.14.7",
+      "title": "E2E sweep prerequisites: fixtures + schema + logging ready",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.32758758442223235,
+      "breakdown": {
+        "pagerank": 0.05251224281510846,
+        "betweenness": 0.021052631578947368,
+        "blocker_ratio": 0.02736842105263158,
+        "staleness": 0.00010738306408711421,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.04025,
+        "urgency": 0.0004627031327352482,
+        "risk": 0.0052310988842807025,
+        "pagerank_norm": 0.23869201279594754,
+        "betweenness_norm": 0.10526315789473684,
+        "blocker_ratio_norm": 0.21052631578947367,
+        "staleness_norm": 0.002147661281742284,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.004627031327352482,
+        "risk_norm": 0.05231098884280702,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.10770329614269007,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.05231098884280702,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-1av4o.13.2 first to unblock this",
+      "reasons": [
+        "🎯 Completing this unblocks 8 downstream issues (bd-1av4o.14.1, bd-1av4o.14.2, +6 more)",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by bd-1av4o.13.2 - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-1av4o.14.1",
+        "bd-1av4o.14.2",
+        "bd-1av4o.14.3",
+        "bd-1av4o.14.4",
+        "bd-1av4o.14.5",
+        "bd-1av4o.14.6",
+        "bd-1av4o.14.8",
+        "bd-1av4o.14.9"
+      ],
+      "blocked_by": [
+        "bd-1av4o.13.2"
+      ]
+    },
+    {
+      "id": "bd-315zw",
+      "title": "Mermaid Engine Config + Feature Flags",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": null,
+      "score": 0.2290555891728268,
+      "breakdown": {
+        "pagerank": 0.07070008177000432,
+        "betweenness": 0,
+        "blocker_ratio": 0.08210526315789474,
+        "staleness": 0.000006672068955825618,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.09625,
+        "urgency": 0.001160253250040605,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.32136400804547416,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.631578947368421,
+        "staleness_norm": 0.00013344137911651234,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.9624999999999999,
+        "urgency_norm": 0.011602532500406049,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 12), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "📊 High centrality in dependency graph (PageRank: 32%)",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "bd-1ri6i",
+      "title": "Diagram IR + Normalization Layer",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.22372914002252292,
+      "breakdown": {
+        "pagerank": 0.05761319401392408,
+        "betweenness": 0.010526315789473684,
+        "blocker_ratio": 0.04789473684210526,
+        "staleness": 0.00026501573111087964,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.09625,
+        "urgency": 0.0012562576534166092,
+        "risk": 0.009500000000000001,
+        "pagerank_norm": 0.2618781546087458,
+        "betweenness_norm": 0.05263157894736842,
+        "blocker_ratio_norm": 0.3684210526315789,
+        "staleness_norm": 0.005300314622217593,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.9624999999999999,
+        "urgency_norm": 0.012562576534166092,
+        "risk_norm": 0.095,
+        "time_to_impact_explanation": "Deep in critical path (depth 10), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.25,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.095,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-37xrr first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by bd-37xrr - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-37xrr"
+      ]
+    },
+    {
+      "id": "bd-37xrr",
+      "title": "Mermaid Init Directives + Theme/Config Bridging",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.2131562219255236,
+      "breakdown": {
+        "pagerank": 0.03674439338180328,
+        "betweenness": 0.0035087719298245615,
+        "blocker_ratio": 0.020526315789473684,
+        "staleness": 0.0002584774174191937,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.09625,
+        "urgency": 0.0011270248968708318,
+        "risk": 0.009592793991512971,
+        "pagerank_norm": 0.16701996991728763,
+        "betweenness_norm": 0.017543859649122806,
+        "blocker_ratio_norm": 0.15789473684210525,
+        "staleness_norm": 0.005169548348383873,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.9624999999999999,
+        "urgency_norm": 0.011270248968708318,
+        "risk_norm": 0.09592793991512971,
+        "time_to_impact_explanation": "Deep in critical path (depth 11), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.25309313305043235,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.09592793991512971,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-315zw first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): bd-1ri6i",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-1ri6i"
+      ],
+      "blocked_by": [
+        "bd-315zw",
+        "bd-3monr"
+      ]
+    },
+    {
+      "id": "bd-2oovu",
+      "title": "Complexity Guards + Degradation Strategy",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.19641671569695535,
+      "breakdown": {
+        "pagerank": 0.04730968545503486,
+        "betweenness": 0.0035087719298245615,
+        "blocker_ratio": 0.05815789473684211,
+        "staleness": 0.0002618416926507909,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.08925000000000001,
+        "urgency": 0.0011597459031026547,
+        "risk": 0.005947368421052632,
+        "pagerank_norm": 0.215044024795613,
+        "betweenness_norm": 0.017543859649122806,
+        "blocker_ratio_norm": 0.4473684210526316,
+        "staleness_norm": 0.005236833853015818,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.8925000000000001,
+        "urgency_norm": 0.011597459031026547,
+        "risk_norm": 0.05947368421052632,
+        "time_to_impact_explanation": "Deep in critical path (depth 9), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.13157894736842105,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.05947368421052632,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-1ri6i first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-1ri6i",
+        "bd-315zw"
+      ]
+    },
+    {
+      "id": "bd-1av4o.13.2",
+      "title": "E2E scripts use deterministic fixture helpers",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.19214834574572304,
+      "breakdown": {
+        "pagerank": 0.015386678902754186,
+        "betweenness": 0,
+        "blocker_ratio": 0.010263157894736842,
+        "staleness": 5.043537919560185e-7,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.04725000000000001,
+        "urgency": 0.0006714806055116984,
+        "risk": 0.03336740853229122,
+        "pagerank_norm": 0.06993944955797357,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.07894736842105263,
+        "staleness_norm": 0.00001008707583912037,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.47250000000000003,
+        "urgency_norm": 0.006714806055116984,
+        "risk_norm": 0.3336740853229122,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 60m",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0.045580284409707295,
+          "activity_churn": 1,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.3336740853229122,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): bd-1av4o.14, bd-1av4o.14.7",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-1av4o.14",
+        "bd-1av4o.14.7"
+      ]
+    },
+    {
+      "id": "bd-2fp5r",
+      "title": "Layout Core Framework (Constraints + Compaction)",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.18840188056656673,
+      "breakdown": {
+        "pagerank": 0.041924337662397594,
+        "betweenness": 0,
+        "blocker_ratio": 0.065,
+        "staleness": 0.00026476449901327164,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.08225,
+        "urgency": 0.0012548286018872368,
+        "risk": 0.0034516129032258064,
+        "pagerank_norm": 0.19056517119271635,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.5,
+        "staleness_norm": 0.005295289980265432,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.8225,
+        "urgency_norm": 0.012548286018872368,
+        "risk_norm": 0.034516129032258064,
+        "time_to_impact_explanation": "Deep in critical path (depth 8), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.04838709677419355,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.034516129032258064,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-1ri6i first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-1ri6i",
+        "bd-2oovu"
+      ]
+    },
+    {
+      "id": "bd-12o4t",
+      "title": "Terminal Renderer (Unicode Glyph Set + ASCII Fallback)",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.1652605439859481,
+      "breakdown": {
+        "pagerank": 0.02139563397941233,
+        "betweenness": 0,
+        "blocker_ratio": 0.06157894736842105,
+        "staleness": 0.0002161561498220293,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.06825,
+        "urgency": 0.0012537839397140595,
+        "risk": 0.00839196997112785,
+        "pagerank_norm": 0.0972528817246015,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.47368421052631576,
+        "staleness_norm": 0.004323122996440586,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.6825,
+        "urgency_norm": 0.012537839397140593,
+        "risk_norm": 0.0839196997112785,
+        "time_to_impact_explanation": "Deep in critical path (depth 6), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.21306566570426164,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.0839196997112785,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-17w24 first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 8 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-17w24",
+        "bd-1oa1y",
+        "bd-25df9",
+        "bd-2fp5r",
+        "bd-2hxl1",
+        "bd-2oovu",
+        "bd-315zw",
+        "bd-j20xh"
+      ]
+    },
+    {
+      "id": "bd-3monr",
+      "title": "Mermaid Compatibility Matrix + Fallback Policy",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.1604292271741102,
+      "breakdown": {
+        "pagerank": 0.021954364724219064,
+        "betweenness": 0,
+        "blocker_ratio": 0.017105263157894738,
+        "staleness": 0.00025825009730113814,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.09625,
+        "urgency": 0.001172389284244152,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.09979256692826848,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.13157894736842105,
+        "staleness_norm": 0.0051650019460227625,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.9624999999999999,
+        "urgency_norm": 0.011723892842441519,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 12), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work"
+      ]
+    },
+    {
+      "id": "bd-2hxl1",
+      "title": "Edge Routing Engine (Orthogonal + Obstacle-Aware)",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.1548540945593683,
+      "breakdown": {
+        "pagerank": 0.025565155650343434,
+        "betweenness": 0,
+        "blocker_ratio": 0.04105263157894737,
+        "staleness": 0.00026466084420034727,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.07525,
+        "urgency": 0.0012543536779874077,
+        "risk": 0.0028333333333333335,
+        "pagerank_norm": 0.11620525295610652,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.3157894736842105,
+        "staleness_norm": 0.005293216884006945,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.7525,
+        "urgency_norm": 0.012543536779874076,
+        "risk_norm": 0.028333333333333335,
+        "time_to_impact_explanation": "Deep in critical path (depth 7), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.027777777777777776,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.028333333333333335,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-2fp5r first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-2fp5r",
+        "bd-2oovu"
+      ]
+    }
+  ],
+  "quick_wins": [
+    {
+      "id": "bd-1av4o.14.7",
+      "title": "E2E sweep prerequisites: fixtures + schema + logging ready",
+      "score": 1.5679700005769253,
+      "reason": "Unblocks 8 items, high priority",
+      "unblocks_ids": [
+        "bd-1av4o.14.1",
+        "bd-1av4o.14.2",
+        "bd-1av4o.14.3",
+        "bd-1av4o.14.4",
+        "bd-1av4o.14.5",
+        "bd-1av4o.14.6",
+        "bd-1av4o.14.8",
+        "bd-1av4o.14.9"
+      ]
+    },
+    {
+      "id": "bd-1av4o.13.2",
+      "title": "E2E scripts use deterministic fixture helpers",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "bd-1av4o.14",
+        "bd-1av4o.14.7"
+      ]
+    },
+    {
+      "id": "bd-3e1t.5.2",
+      "title": "Render-thread profiling + in-app timing for VFX",
+      "score": 1.0339850002884625,
+      "reason": "Unblocks 2 items",
+      "unblocks_ids": [
+        "bd-3e1t.5.3",
+        "bd-3e1t.5.7"
+      ]
+    },
+    {
+      "id": "bd-37xrr",
+      "title": "Mermaid Init Directives + Theme/Config Bridging",
+      "score": 0.9,
+      "reason": "Unblocks 1 items, high priority",
+      "unblocks_ids": [
+        "bd-1ri6i"
+      ]
+    },
+    {
+      "id": "bd-1mzp6",
+      "title": "CI: Coverage + E2E gate tightening",
+      "score": 0.8,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "bd-112f"
+      ]
+    }
+  ],
+  "blockers_to_clear": [
+    {
+      "id": "bd-1av4o.14.7",
+      "title": "E2E sweep prerequisites: fixtures + schema + logging ready",
+      "unblocks_count": 8,
+      "unblocks_ids": [
+        "bd-1av4o.14.1",
+        "bd-1av4o.14.2",
+        "bd-1av4o.14.3",
+        "bd-1av4o.14.4",
+        "bd-1av4o.14.5",
+        "bd-1av4o.14.6",
+        "bd-1av4o.14.8",
+        "bd-1av4o.14.9"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "bd-1av4o.13.2"
+      ]
+    },
+    {
+      "id": "bd-1av4o.13.2",
+      "title": "E2E scripts use deterministic fixture helpers",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "bd-1av4o.14",
+        "bd-1av4o.14.7"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "bd-3e1t.5.2",
+      "title": "Render-thread profiling + in-app timing for VFX",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "bd-3e1t.5.3",
+        "bd-3e1t.5.7"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "bd-1mzp6",
+      "title": "CI: Coverage + E2E gate tightening",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "bd-112f"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "bd-11hb",
+        "bd-1n7aq",
+        "bd-1ybk8",
+        "bd-2232w",
+        "bd-26cci",
+        "bd-2atzn",
+        "bd-2vjcz",
+        "bd-359p",
+        "bd-3b13l",
+        "bd-3bzos",
+        "bd-9o94q",
+        "bd-czn4y",
+        "bd-kacr",
+        "bd-plwf",
+        "bd-vmuax"
+      ]
+    },
+    {
+      "id": "bd-1rz0.27",
+      "title": "Evidence Ledger + Galaxy-Brain Debug View",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "bd-iuvb.4"
+      ],
+      "actionable": true
+    }
+  ],
+  "project_health": {
+    "counts": {
+      "total": 1168,
+      "open": 149,
+      "closed": 1019,
+      "blocked": 60,
+      "actionable": 89,
+      "by_status": {
+        "closed": 1019,
+        "in_progress": 39,
+        "open": 110
+      },
+      "by_type": {
+        "bug": 32,
+        "docs": 27,
+        "epic": 71,
+        "feature": 29,
+        "task": 1009
+      },
+      "by_priority": {
+        "0": 41,
+        "1": 344,
+        "2": 634,
+        "3": 141,
+        "4": 8
+      }
+    },
+    "graph": {
+      "node_count": 1168,
+      "edge_count": 1743,
+      "density": 0.0012787442335457971,
+      "has_cycles": false,
+      "phase2_ready": true
+    },
+    "velocity": {
+      "closed_last_7_days": 1019,
+      "closed_last_30_days": 1019,
+      "avg_days_to_close": 0.41140413891390715,
+      "weekly": [
+        {
+          "week_start": "2026-02-02T00:00:00Z",
+          "closed": 815
+        },
+        {
+          "week_start": "2026-01-26T00:00:00Z",
+          "closed": 204
+        },
+        {
+          "week_start": "2026-01-19T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-12T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-05T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-12-29T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-12-22T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-12-15T00:00:00Z",
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "CI=1 bd update bd-1av4o.14.7 --status in_progress --json",
+    "show_top": "CI=1 bd show bd-1av4o.14.7 --json",
+    "list_ready": "CI=1 bd ready --json",
+    "list_blocked": "CI=1 bd blocked --json",
+    "refresh_triage": "bv --robot-triage"
+  }
+}
