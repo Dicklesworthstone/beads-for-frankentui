@@ -76,3 +76,4 @@ Low-effort items that clear the path forward:
 *Generated Feb 4, 2026 at 5:55 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
 **[Open Interactive Dashboard](https://Dicklesworthstone.github.io/beads-for-frankentui/)** for full details, dependency graph, search, and time-travel.
+<!-- cache-bust 1770245948 -->
