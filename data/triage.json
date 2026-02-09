@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-02-09T13:36:27.102303966-05:00",
+    "phase2_ready": true,
+    "issue_count": 1592,
+    "compute_time_ms": 1
+  },
+  "quick_ref": {
+    "open_count": 11,
+    "actionable_count": 10,
+    "blocked_count": 1,
+    "in_progress_count": 11,
+    "top_picks": [
+      {
+        "id": "bd-3e1t.5.3",
+        "title": "VFX hotspot matrix + algorithmic optimization pass",
+        "score": 0.14865245383263267,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): bd-3e1t.5.8",
+          "🚧 In progress - already being worked"
+        ],
+        "unblocks": 1
+      },
+      {
+        "id": "bd-lff4p.3.6",
+        "title": "Demo: run ftui-demo-showcase in browser via ftui-web + FrankenTerm",
+        "score": 0.12542661063562985,
+        "reasons": [
+          "🚧 In progress - already being worked",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 0
+      },
+      {
+        "id": "bd-3e1t.5",
+        "title": "Optimize demo visual effects for instant load + 60fps",
+        "score": 0.0987461522743,
+        "reasons": [
+          "🚧 In progress - already being worked"
+        ],
+        "unblocks": 0
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "bd-3e1t.5.3",
+      "title": "VFX hotspot matrix + algorithmic optimization pass",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 2,
+      "labels": null,
+      "score": 0.14865245383263267,
+      "breakdown": {
+        "pagerank": 0.009450596279836571,
+        "betweenness": 0,
+        "blocker_ratio": 0.0030232558139534882,
+        "staleness": 0.00016472161879980713,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04725000000000001,
+        "urgency": 0.025472074619742532,
+        "risk": 0.03414285714285714,
+        "pagerank_norm": 0.04295725581743896,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.023255813953488372,
+        "staleness_norm": 0.003294432375996142,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.47250000000000003,
+        "urgency_norm": 0.2547207461974253,
+        "risk_norm": 0.3414285714285714,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0.07142857142857142,
+          "activity_churn": 1,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.3414285714285714,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): bd-3e1t.5.8",
+        "🚧 In progress - already being worked"
+      ],
+      "unblocks_ids": [
+        "bd-3e1t.5.8"
+      ]
+    },
+    {
+      "id": "bd-lff4p.3.6",
+      "title": "Demo: run ftui-demo-showcase in browser via ftui-web + FrankenTerm",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": null,
+      "score": 0.12542661063562985,
+      "breakdown": {
+        "pagerank": 0.00959365932927518,
+        "betweenness": 0,
+        "blocker_ratio": 0.0030232558139534882,
+        "staleness": 0.000004876353930690587,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.04025,
+        "urgency": 0.009091449019898824,
+        "risk": 0.042217631819555845,
+        "pagerank_norm": 0.04360754240579627,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.023255813953488372,
+        "staleness_norm": 0.00009752707861381173,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.09091449019898823,
+        "risk_norm": 0.4221763181955584,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0.340587727318528,
+          "activity_churn": 1,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.4221763181955584,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "bd-3e1t.5.8",
+      "title": "VFX optimization round 1 (low-hanging fruit)",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 2,
+      "labels": null,
+      "score": 0.11252254161467479,
+      "breakdown": {
+        "pagerank": 0.00959365932927518,
+        "betweenness": 0,
+        "blocker_ratio": 0.0030232558139534882,
+        "staleness": 0.0008494165882606676,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04025,
+        "urgency": 0.02532786452051098,
+        "risk": 0.031702291768963685,
+        "pagerank_norm": 0.04360754240579627,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.023255813953488372,
+        "staleness_norm": 0.01698833176521335,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.2532786452051098,
+        "risk_norm": 0.31702291768963686,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0.26726124191242434,
+          "activity_churn": 0.7228151503863651,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.31702291768963686,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Work on bd-3e1t.5.3 first to unblock this",
+      "reasons": [
+        "🚧 In progress - already being worked",
+        "⏳ Blocked by bd-3e1t.5.3 - complete that first"
+      ],
+      "blocked_by": [
+        "bd-3e1t.5.3"
+      ]
+    },
+    {
+      "id": "bd-3e1t.5",
+      "title": "Optimize demo visual effects for instant load + 60fps",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 2,
+      "labels": null,
+      "score": 0.0987461522743,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0008715610887290317,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0.02782790797495809,
+        "risk": 0.0223840608245255,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.017431221774580632,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.2782790797495809,
+        "risk_norm": 0.22384060824525498,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Risk factors: high activity churn",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.67946869415085,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.22384060824525498,
+          "explanation": "Risk factors: high activity churn"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked"
+      ]
+    },
+    {
+      "id": "bd-lff4p",
+      "title": "FrankenTerm.WASM: full custom terminal stack (replace crossterm + xterm.js)",
+      "type": "epic",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": null,
+      "score": 0.09560259137108551,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0003693161793247107,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03325,
+        "urgency": 0.0091116360213868,
+        "risk": 0.012111776397194665,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.007386323586494214,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.09111636021386799,
+        "risk_norm": 0.12111776397194665,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.3370592132398222,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.12111776397194665,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "bd-lff4p.2",
+      "title": "FrankenTerm Web: WebGPU renderer + web input plumbing",
+      "type": "epic",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": null,
+      "score": 0.09558150084449825,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.00037577161802841437,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03325,
+        "urgency": 0.00910873428947599,
+        "risk": 0.0120780933667057,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.007515432360568287,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.09108734289475989,
+        "risk_norm": 0.120780933667057,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.33593644555685664,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.120780933667057,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "bd-lff4p.3",
+      "title": "ftui-web: compile ftui to WASM and run inside FrankenTerm",
+      "type": "epic",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": null,
+      "score": 0.09491367210439651,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0006074924502910687,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03325,
+        "urgency": 0.00910829033581352,
+        "risk": 0.010892775430817328,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.012149849005821374,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.09108290335813518,
+        "risk_norm": 0.10892775430817328,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.29642584769391095,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.10892775430817328,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "bd-lff4p.3.6.8",
+      "title": "Typed SessionTrace validation errors for ftui-web golden traces",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 1,
+      "labels": null,
+      "score": 0.08189858280888809,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.000002946641240374229,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03325,
+        "urgency": 0.000012626867812359778,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.00005893282480748457,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.00012626867812359777,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "bd-lff4p.2.19",
+      "title": "Optional: ligatures/shaping pipeline (Harfbuzz)",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 3,
+      "labels": null,
+      "score": 0.06952492682919832,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.00016159856497451776,
+        "priority_boost": 0.025,
+        "time_to_impact": 0.03325,
+        "urgency": 0.009013501334831647,
+        "risk": 0.025163822209689782,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.003231971299490355,
+        "priority_boost_norm": 0.25,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.09013501334831647,
+        "risk_norm": 0.2516382220968978,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "risk_explanation": "Moderate risk",
+        "risk_signals": {
+          "fan_variance": 0.4,
+          "activity_churn": 0.37212740698965924,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.2516382220968978,
+          "explanation": "Moderate risk"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked"
+      ]
+    },
+    {
+      "id": "bd-lff4p.2.26",
+      "title": "Replace unwrap() with expect() in frankenterm-web renderer tests",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 2,
+      "labels": null,
+      "score": 0.06439370620629217,
+      "breakdown": {
+        "pagerank": 0.0067324019322159544,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.000001628430991685957,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0.000006978502924021024,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.030601826964617974,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.00003256861983371914,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.00006978502924021024,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🚧 In progress - already being worked"
+      ]
+    }
+  ],
+  "quick_wins": [
+    {
+      "id": "bd-3e1t.5.3",
+      "title": "VFX hotspot matrix + algorithmic optimization pass",
+      "score": 0.8,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "bd-3e1t.5.8"
+      ]
+    },
+    {
+      "id": "bd-lff4p",
+      "title": "FrankenTerm.WASM: full custom terminal stack (replace crossterm + xterm.js)",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    },
+    {
+      "id": "bd-lff4p.2",
+      "title": "FrankenTerm Web: WebGPU renderer + web input plumbing",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    },
+    {
+      "id": "bd-lff4p.3",
+      "title": "ftui-web: compile ftui to WASM and run inside FrankenTerm",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    },
+    {
+      "id": "bd-lff4p.3.6",
+      "title": "Demo: run ftui-demo-showcase in browser via ftui-web + FrankenTerm",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    }
+  ],
+  "blockers_to_clear": [
+    {
+      "id": "bd-3e1t.5.3",
+      "title": "VFX hotspot matrix + algorithmic optimization pass",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "bd-3e1t.5.8"
+      ],
+      "actionable": true
+    }
+  ],
+  "project_health": {
+    "counts": {
+      "total": 1592,
+      "open": 11,
+      "closed": 1581,
+      "blocked": 1,
+      "actionable": 10,
+      "by_status": {
+        "closed": 1581,
+        "in_progress": 11
+      },
+      "by_type": {
+        "bug": 67,
+        "docs": 32,
+        "epic": 89,
+        "feature": 41,
+        "subtask": 36,
+        "task": 1327
+      },
+      "by_priority": {
+        "0": 43,
+        "1": 515,
+        "2": 852,
+        "3": 174,
+        "4": 8
+      }
+    },
+    "graph": {
+      "node_count": 1592,
+      "edge_count": 2327,
+      "density": 0.0009187199353145362,
+      "has_cycles": false,
+      "phase2_ready": true
+    },
+    "velocity": {
+      "closed_last_7_days": 1206,
+      "closed_last_30_days": 1581,
+      "avg_days_to_close": 0.42672671739342494,
+      "weekly": [
+        {
+          "week_start": "2026-02-09T00:00:00Z",
+          "closed": 140
+        },
+        {
+          "week_start": "2026-02-02T00:00:00Z",
+          "closed": 1237
+        },
+        {
+          "week_start": "2026-01-26T00:00:00Z",
+          "closed": 204
+        },
+        {
+          "week_start": "2026-01-19T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-12T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-05T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-12-29T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-12-22T00:00:00Z",
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "CI=1 br update bd-3e1t.5.3 --status in_progress --json",
+    "show_top": "CI=1 br show bd-3e1t.5.3 --json",
+    "list_ready": "CI=1 br ready --json",
+    "list_blocked": "CI=1 br blocked --json",
+    "refresh_triage": "bv --robot-triage"
+  }
+}

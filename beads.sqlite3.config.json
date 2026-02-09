@@ -1,0 +1,49 @@
+{
+  "chunked": true,
+  "chunk_count": 8,
+  "chunk_size": 1048576,
+  "total_size": 7429120,
+  "hash": "0a7580903f1caae6c100e5038c7283c119a036090560e09b0cc1508d29ab9603",
+  "chunks": [
+    {
+      "path": "chunks/00000.bin",
+      "hash": "dcec1e3211c7d5b1f7623e604545c8d52036628182e6e1d4e06d98250c4ea9b3",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00001.bin",
+      "hash": "f77004c728e9ccf8be1796270073665a5a6f41cd6022ae89fc03156baf5b68ac",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00002.bin",
+      "hash": "9509cf21671f66c745a696051a987b9f84abeeb53e80501042a94b614813bd94",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00003.bin",
+      "hash": "38c50b8bf9133a749cce99705c9f6c626e33918d711dd8d1c7ce3759430f0a93",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00004.bin",
+      "hash": "c7e6f85fb4837ed10e3c80c00b41cbab2079a2cc6d6d8feafbd37fca1f82aef7",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00005.bin",
+      "hash": "18dc970d3c5f7f92cdee89b51ef394926e9e63ca481eba78a4b55a43c09f2418",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00006.bin",
+      "hash": "d51e39f038e606a9b79e1fff39e29a69c6c7da00e11baa7931db83546d3de2b9",
+      "size": 1048576
+    },
+    {
+      "path": "chunks/00007.bin",
+      "hash": "0c0fc78ea278d2fd6960261e898df950a6607805df05a16864e02a54dea4b146",
+      "size": 89088
+    }
+  ]
+}
