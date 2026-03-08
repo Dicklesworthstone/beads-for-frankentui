@@ -1,0 +1,830 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-03-08T14:41:02.706073179-04:00",
+    "phase2_ready": true,
+    "issue_count": 2590,
+    "compute_time_ms": 3
+  },
+  "quick_ref": {
+    "open_count": 204,
+    "actionable_count": 47,
+    "blocked_count": 157,
+    "in_progress_count": 9,
+    "top_picks": [
+      {
+        "id": "bd-2vr05.7.3",
+        "title": "task(accessibility): harden screen-reader mirror output and live announcement policy",
+        "score": 0.2448660554001379,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): bd-2vr05.7.4",
+          "📅 Last updated 12 days ago",
+          "✅ Currently unclaimed - available for work",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 1
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "bd-3bxhj.4.10",
+      "title": "task(opentui-import translation tests): E2E translate-and-build script with detailed run ledger",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "e2e",
+        "opentui-import",
+        "test",
+        "translation"
+      ],
+      "score": 0.46473468495819914,
+      "breakdown": {
+        "pagerank": 0.06382485493820979,
+        "betweenness": 0.08525996504272687,
+        "blocker_ratio": 0.033255813953488374,
+        "staleness": 0.019746335545549484,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04084075885588459,
+        "risk": 0.017943250175854047,
+        "pagerank_norm": 0.29011297699186267,
+        "betweenness_norm": 0.4262998252136343,
+        "blocker_ratio_norm": 0.2558139534883721,
+        "staleness_norm": 0.39492671091098963,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.40840758855884585,
+        "risk_norm": 0.17943250175854047,
+        "time_to_impact_explanation": "Deep in critical path (depth 25), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.5303300858899106,
+          "activity_churn": 0.001111586638557559,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.17943250175854047,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.3.9 first to unblock this",
+      "reasons": [
+        "🎯 Completing this unblocks 6 downstream issues (bd-3bxhj.10.5, bd-3bxhj.6.3, +4 more)",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by bd-3bxhj.3.9 - complete that first",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-3bxhj.10.5",
+        "bd-3bxhj.6.3",
+        "bd-3bxhj.6.4",
+        "bd-3bxhj.6.5",
+        "bd-3bxhj.6.6",
+        "bd-3bxhj.6.7"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.3.9"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.10.10",
+      "title": "task(opentui-import alien tests): Unit tests for contracts-as-code, synthesis, abstract interpretation, and controller guards",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "alien-graveyard",
+        "opentui-import",
+        "test",
+        "unit"
+      ],
+      "score": 0.3720840010960934,
+      "breakdown": {
+        "pagerank": 0.017319791531538845,
+        "betweenness": 0.2,
+        "blocker_ratio": 0.04534883720930233,
+        "staleness": 0.019737823029158354,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04082524919931771,
+        "risk": 0.019566872025101892,
+        "pagerank_norm": 0.07872632514335838,
+        "betweenness_norm": 1,
+        "blocker_ratio_norm": 0.3488372093023256,
+        "staleness_norm": 0.39475646058316705,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.4082524919931771,
+        "risk_norm": 0.1956687202510189,
+        "time_to_impact_explanation": "Deep in critical path (depth 11), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.5846767104841639,
+          "activity_churn": 0.000885690352565804,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.1956687202510189,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.10.14 first to unblock this",
+      "reasons": [
+        "🔀 Critical path bottleneck (betweenness: 100%)",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 10 items - need to clear dependencies",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.10.14",
+        "bd-3bxhj.10.4",
+        "bd-3bxhj.10.5",
+        "bd-3bxhj.10.6",
+        "bd-3bxhj.10.7",
+        "bd-3bxhj.10.8",
+        "bd-3bxhj.10.9",
+        "bd-3bxhj.2.9",
+        "bd-3bxhj.6.10",
+        "bd-3bxhj.6.13"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.2.10",
+      "title": "task(opentui-import ingestion tests): E2E ingestion script with deterministic replay logging",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "e2e",
+        "ingestion",
+        "opentui-import",
+        "test"
+      ],
+      "score": 0.3314846893524094,
+      "breakdown": {
+        "pagerank": 0.028761636962428862,
+        "betweenness": 0.0314303790919478,
+        "blocker_ratio": 0.018139534883720932,
+        "staleness": 0.019746353000484513,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04084350426939762,
+        "risk": 0.014308177595232867,
+        "pagerank_norm": 0.13073471346558574,
+        "betweenness_norm": 0.15715189545973898,
+        "blocker_ratio_norm": 0.13953488372093023,
+        "staleness_norm": 0.39492706000969025,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.4084350426939762,
+        "risk_norm": 0.14308177595232865,
+        "time_to_impact_explanation": "Deep in critical path (depth 27), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.4090909090909091,
+          "activity_churn": 0.0011816774168530832,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.14308177595232865,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.2.9 first to unblock this",
+      "reasons": [
+        "🎯 Completing this unblocks 3 downstream issues (bd-3bxhj.2.14, bd-3bxhj.3.9, bd-3bxhj.7.5)",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by bd-3bxhj.2.9 - complete that first",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-3bxhj.2.14",
+        "bd-3bxhj.3.9",
+        "bd-3bxhj.7.5"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.2.9"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.6.9",
+      "title": "task(opentui-import certification): Implement certification report generator and verdict policy engine",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "certification-report",
+        "opentui-import",
+        "verification"
+      ],
+      "score": 0.31370881479515156,
+      "breakdown": {
+        "pagerank": 0.04392159155668104,
+        "betweenness": 0.047017099763233976,
+        "blocker_ratio": 0.027209302325581396,
+        "staleness": 0.019790776211888964,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.040839170709470775,
+        "risk": 0.009198937711931806,
+        "pagerank_norm": 0.1996435979849138,
+        "betweenness_norm": 0.23508549881616986,
+        "blocker_ratio_norm": 0.20930232558139536,
+        "staleness_norm": 0.39581552423777927,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.40839170709470773,
+        "risk_norm": 0.09198937711931805,
+        "time_to_impact_explanation": "Deep in critical path (depth 22), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.23979157616563596,
+          "activity_churn": 0.00017301423209092177,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.09198937711931805,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.6.12 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): bd-3bxhj.7.6, bd-3bxhj.7.7",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 6 items - need to clear dependencies",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-3bxhj.7.6",
+        "bd-3bxhj.7.7"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.6.12",
+        "bd-3bxhj.6.3",
+        "bd-3bxhj.6.4",
+        "bd-3bxhj.6.5",
+        "bd-3bxhj.6.6",
+        "bd-3bxhj.6.7"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.2.9",
+      "title": "task(opentui-import ingestion tests): Unit test suite for parser, graph, and semantic extractors",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "ingestion",
+        "opentui-import",
+        "test",
+        "unit"
+      ],
+      "score": 0.31070076674566605,
+      "breakdown": {
+        "pagerank": 0.017974026015411954,
+        "betweenness": 0.06334068762445977,
+        "blocker_ratio": 0.0060465116279069765,
+        "staleness": 0.0197464660729203,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.0408435117571879,
+        "risk": 0.020424755334195688,
+        "pagerank_norm": 0.08170011825187251,
+        "betweenness_norm": 0.31670343812229884,
+        "blocker_ratio_norm": 0.046511627906976744,
+        "staleness_norm": 0.3949293214584059,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.408435117571879,
+        "risk_norm": 0.20424755334195688,
+        "time_to_impact_explanation": "Deep in critical path (depth 28), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Risk factors: high dependency variance",
+        "risk_signals": {
+          "fan_variance": 0.6129789253321095,
+          "activity_churn": 0.0011795858077467527,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.20424755334195688,
+          "explanation": "Risk factors: high dependency variance"
+        }
+      },
+      "action": "Work on bd-3bxhj.2.8 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): bd-3bxhj.2.10",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by bd-3bxhj.2.8 - complete that first",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-3bxhj.2.10"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.2.8"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.10.11",
+      "title": "task(opentui-import alien tests): E2E alien-uplift validation pipeline with full structured evidence ledger",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "alien-graveyard",
+        "e2e",
+        "opentui-import",
+        "test"
+      ],
+      "score": 0.27799806131829813,
+      "breakdown": {
+        "pagerank": 0.015018725094007826,
+        "betweenness": 0.08142041439166219,
+        "blocker_ratio": 0.03930232558139535,
+        "staleness": 0.019737809692441936,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04082524200918499,
+        "risk": 0.012085570828876596,
+        "pagerank_norm": 0.06826693224549012,
+        "betweenness_norm": 0.4071020719583109,
+        "blocker_ratio_norm": 0.3023255813953488,
+        "staleness_norm": 0.3947561938488387,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.40825242009184987,
+        "risk_norm": 0.12085570828876595,
+        "time_to_impact_explanation": "Deep in critical path (depth 10), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.335299918733898,
+          "activity_churn": 0.000885775561988509,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.12085570828876595,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.10.10 first to unblock this",
+      "reasons": [
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 8 items - need to clear dependencies",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.10.10",
+        "bd-3bxhj.2.10",
+        "bd-3bxhj.2.14",
+        "bd-3bxhj.3.9",
+        "bd-3bxhj.4.10",
+        "bd-3bxhj.5.9",
+        "bd-3bxhj.6.11",
+        "bd-3bxhj.6.14"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.3.9",
+      "title": "task(opentui-import IR tests): E2E ingestion-to-IR determinism script with stage-by-stage JSONL traces",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "e2e",
+        "ir",
+        "opentui-import",
+        "test"
+      ],
+      "score": 0.2676963054990274,
+      "breakdown": {
+        "pagerank": 0.02443454259404062,
+        "betweenness": 0.05245228844165998,
+        "blocker_ratio": 0.0060465116279069765,
+        "staleness": 0.019746344260445043,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04084219258297325,
+        "risk": 0.014437128348727582,
+        "pagerank_norm": 0.11106610270018463,
+        "betweenness_norm": 0.2622614422082999,
+        "blocker_ratio_norm": 0.046511627906976744,
+        "staleness_norm": 0.39492688520890085,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.4084219258297325,
+        "risk_norm": 0.14437128348727582,
+        "time_to_impact_explanation": "Deep in critical path (depth 26), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.41342274652822236,
+          "activity_churn": 0.001148198429363693,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.14437128348727582,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.2.10 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): bd-3bxhj.4.10",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by bd-3bxhj.2.10 - complete that first",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-3bxhj.4.10"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.2.10"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.8.5",
+      "title": "task(opentui-import benchmarking): Build benchmark harness for migration throughput and generated app performance",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "benchmarking",
+        "opentui-import",
+        "performance"
+      ],
+      "score": 0.25476487010082904,
+      "breakdown": {
+        "pagerank": 0.03806437244972614,
+        "betweenness": 0.014610351979675112,
+        "blocker_ratio": 0.018139534883720932,
+        "staleness": 0.019731286810915395,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04083840811550816,
+        "risk": 0.008101574475924331,
+        "pagerank_norm": 0.17301987477148245,
+        "betweenness_norm": 0.07305175989837556,
+        "blocker_ratio_norm": 0.13953488372093023,
+        "staleness_norm": 0.3946257362183079,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.40838408115508157,
+        "risk_norm": 0.08101574475924331,
+        "time_to_impact_explanation": "Deep in critical path (depth 19), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.20203050891044216,
+          "activity_churn": 0.0013553069537021586,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.08101574475924331,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.4.10 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): bd-3bxhj.8.6",
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-3bxhj.8.6"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.4.10",
+        "bd-3bxhj.8.14"
+      ]
+    },
+    {
+      "id": "bd-2vr05.7.3",
+      "title": "task(accessibility): harden screen-reader mirror output and live announcement policy",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "accessibility",
+        "frankenterm",
+        "screen-reader"
+      ],
+      "score": 0.2448660554001379,
+      "breakdown": {
+        "pagerank": 0.013114155801734263,
+        "betweenness": 0.00209969130246828,
+        "blocker_ratio": 0.0060465116279069765,
+        "staleness": 0.020759248603095526,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.07475,
+        "urgency": 0.048720938017541855,
+        "risk": 0.018175402176827133,
+        "pagerank_norm": 0.059609799098792104,
+        "betweenness_norm": 0.010498456512341398,
+        "blocker_ratio_norm": 0.046511627906976744,
+        "staleness_norm": 0.41518497206191046,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.7474999999999999,
+        "urgency_norm": 0.48720938017541854,
+        "risk_norm": 0.18175402176827132,
+        "time_to_impact_explanation": "Deep in critical path (depth 8), median estimate 180m",
+        "urgency_explanation": "aging (26 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.3333333333333333,
+          "activity_churn": 0.20584673922757102,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.18175402176827132,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): bd-2vr05.7.4",
+        "📅 Last updated 12 days ago",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "bd-2vr05.7.4"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.6.11",
+      "title": "task(opentui-import certification tests): E2E certification pipeline script with full JSONL evidence ledger",
+      "type": "task",
+      "status": "open",
+      "priority": 0,
+      "labels": [
+        "certification",
+        "e2e",
+        "opentui-import",
+        "test"
+      ],
+      "score": 0.2441142590752553,
+      "breakdown": {
+        "pagerank": 0.039010997755471725,
+        "betweenness": 0.014115564583673888,
+        "blocker_ratio": 0.033255813953488374,
+        "staleness": 0.01974631804546198,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.08875,
+        "urgency": 0.04083915482758898,
+        "risk": 0.013016806656108352,
+        "pagerank_norm": 0.177322717070326,
+        "betweenness_norm": 0.07057782291836943,
+        "blocker_ratio_norm": 0.2558139534883721,
+        "staleness_norm": 0.39492636090923955,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.8875,
+        "urgency_norm": 0.40839154827588975,
+        "risk_norm": 0.1301680665610835,
+        "time_to_impact_explanation": "Deep in critical path (depth 21), median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.3661561071245166,
+          "activity_churn": 0.0010707814124284408,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.1301680665610835,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on bd-3bxhj.5.9 first to unblock this",
+      "reasons": [
+        "📅 Last updated 11 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 4 items - need to clear dependencies",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "blocked_by": [
+        "bd-3bxhj.5.9",
+        "bd-3bxhj.6.10",
+        "bd-3bxhj.6.13",
+        "bd-3bxhj.6.9"
+      ]
+    }
+  ],
+  "quick_wins": [
+    {
+      "id": "bd-3bxhj.4.10",
+      "title": "task(opentui-import translation tests): E2E translate-and-build script with detailed run ledger",
+      "score": 1.4229419688230418,
+      "reason": "Unblocks 6 items, high priority",
+      "unblocks_ids": [
+        "bd-3bxhj.10.5",
+        "bd-3bxhj.6.3",
+        "bd-3bxhj.6.4",
+        "bd-3bxhj.6.5",
+        "bd-3bxhj.6.6",
+        "bd-3bxhj.6.7"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.2.10",
+      "title": "task(opentui-import ingestion tests): E2E ingestion script with deterministic replay logging",
+      "score": 1.3000000000000003,
+      "reason": "Unblocks 3 items, high priority",
+      "unblocks_ids": [
+        "bd-3bxhj.2.14",
+        "bd-3bxhj.3.9",
+        "bd-3bxhj.7.5"
+      ]
+    },
+    {
+      "id": "bd-1y0ph",
+      "title": "task(pane-perf): profile hotspots across core, terminal, and web drag paths",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "bd-1k7ek",
+        "bd-25wj7"
+      ]
+    },
+    {
+      "id": "bd-21pbi.1",
+      "title": "task(pane-a11y): define canonical keyboard command model and focus graph semantics",
+      "score": 1.1339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "bd-21pbi.2",
+        "bd-21pbi.3"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.6.9",
+      "title": "task(opentui-import certification): Implement certification report generator and verdict policy engine",
+      "score": 0.9339850002884625,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "bd-3bxhj.7.6",
+        "bd-3bxhj.7.7"
+      ]
+    }
+  ],
+  "blockers_to_clear": [
+    {
+      "id": "bd-3bxhj.4.10",
+      "title": "task(opentui-import translation tests): E2E translate-and-build script with detailed run ledger",
+      "unblocks_count": 6,
+      "unblocks_ids": [
+        "bd-3bxhj.10.5",
+        "bd-3bxhj.6.3",
+        "bd-3bxhj.6.4",
+        "bd-3bxhj.6.5",
+        "bd-3bxhj.6.6",
+        "bd-3bxhj.6.7"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "bd-3bxhj.3.9"
+      ]
+    },
+    {
+      "id": "bd-3bxhj.2.10",
+      "title": "task(opentui-import ingestion tests): E2E ingestion script with deterministic replay logging",
+      "unblocks_count": 3,
+      "unblocks_ids": [
+        "bd-3bxhj.2.14",
+        "bd-3bxhj.3.9",
+        "bd-3bxhj.7.5"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "bd-3bxhj.2.9"
+      ]
+    },
+    {
+      "id": "bd-1y0ph",
+      "title": "task(pane-perf): profile hotspots across core, terminal, and web drag paths",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "bd-1k7ek",
+        "bd-25wj7"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "bd-2bav7"
+      ]
+    },
+    {
+      "id": "bd-21pbi.1",
+      "title": "task(pane-a11y): define canonical keyboard command model and focus graph semantics",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "bd-21pbi.2",
+        "bd-21pbi.3"
+      ],
+      "actionable": false
+    },
+    {
+      "id": "bd-3bxhj.6.9",
+      "title": "task(opentui-import certification): Implement certification report generator and verdict policy engine",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "bd-3bxhj.7.6",
+        "bd-3bxhj.7.7"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "bd-3bxhj.6.12",
+        "bd-3bxhj.6.3",
+        "bd-3bxhj.6.4",
+        "bd-3bxhj.6.5",
+        "bd-3bxhj.6.6",
+        "bd-3bxhj.6.7"
+      ]
+    }
+  ],
+  "project_health": {
+    "counts": {
+      "total": 2590,
+      "open": 204,
+      "closed": 2386,
+      "blocked": 157,
+      "actionable": 47,
+      "by_status": {
+        "blocked": 1,
+        "closed": 2386,
+        "in_progress": 9,
+        "open": 194
+      },
+      "by_type": {
+        "bug": 125,
+        "docs": 33,
+        "epic": 141,
+        "feature": 143,
+        "subtask": 36,
+        "task": 2112
+      },
+      "by_priority": {
+        "0": 233,
+        "1": 877,
+        "2": 1208,
+        "3": 260,
+        "4": 12
+      }
+    },
+    "graph": {
+      "node_count": 2590,
+      "edge_count": 3696,
+      "density": 0.0005511885002035639,
+      "has_cycles": false,
+      "phase2_ready": true
+    },
+    "velocity": {
+      "closed_last_7_days": 108,
+      "closed_last_30_days": 1088,
+      "avg_days_to_close": 1.5897279044015669,
+      "weekly": [
+        {
+          "week_start": "2026-03-02T00:00:00Z",
+          "closed": 108
+        },
+        {
+          "week_start": "2026-02-23T00:00:00Z",
+          "closed": 144
+        },
+        {
+          "week_start": "2026-02-16T00:00:00Z",
+          "closed": 120
+        },
+        {
+          "week_start": "2026-02-09T00:00:00Z",
+          "closed": 573
+        },
+        {
+          "week_start": "2026-02-02T00:00:00Z",
+          "closed": 1237
+        },
+        {
+          "week_start": "2026-01-26T00:00:00Z",
+          "closed": 204
+        },
+        {
+          "week_start": "2026-01-19T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-12T00:00:00Z",
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "CI=1 br update bd-3bxhj.4.10 --status in_progress --json",
+    "show_top": "CI=1 br show bd-3bxhj.4.10 --json",
+    "list_ready": "CI=1 br ready --json",
+    "list_blocked": "CI=1 br blocked --json",
+    "refresh_triage": "bv --robot-triage"
+  }
+}
