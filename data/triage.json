@@ -33,12 +33,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "e2e",
-        "opentui-import",
-        "test",
-        "translation"
-      ],
+      "labels": ["e2e", "opentui-import", "test", "translation"],
       "score": 0.46473468495819914,
       "breakdown": {
         "pagerank": 0.06382485493820979,
@@ -85,9 +80,7 @@
         "bd-3bxhj.6.6",
         "bd-3bxhj.6.7"
       ],
-      "blocked_by": [
-        "bd-3bxhj.3.9"
-      ]
+      "blocked_by": ["bd-3bxhj.3.9"]
     },
     {
       "id": "bd-3bxhj.10.10",
@@ -95,12 +88,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "alien-graveyard",
-        "opentui-import",
-        "test",
-        "unit"
-      ],
+      "labels": ["alien-graveyard", "opentui-import", "test", "unit"],
       "score": 0.3720840010960934,
       "breakdown": {
         "pagerank": 0.017319791531538845,
@@ -158,12 +146,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "e2e",
-        "ingestion",
-        "opentui-import",
-        "test"
-      ],
+      "labels": ["e2e", "ingestion", "opentui-import", "test"],
       "score": 0.3314846893524094,
       "breakdown": {
         "pagerank": 0.028761636962428862,
@@ -202,14 +185,8 @@
         "⏳ Blocked by bd-3bxhj.2.9 - complete that first",
         "🚨 High priority (P0) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "bd-3bxhj.2.14",
-        "bd-3bxhj.3.9",
-        "bd-3bxhj.7.5"
-      ],
-      "blocked_by": [
-        "bd-3bxhj.2.9"
-      ]
+      "unblocks_ids": ["bd-3bxhj.2.14", "bd-3bxhj.3.9", "bd-3bxhj.7.5"],
+      "blocked_by": ["bd-3bxhj.2.9"]
     },
     {
       "id": "bd-3bxhj.6.9",
@@ -217,11 +194,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "certification-report",
-        "opentui-import",
-        "verification"
-      ],
+      "labels": ["certification-report", "opentui-import", "verification"],
       "score": 0.31370881479515156,
       "breakdown": {
         "pagerank": 0.04392159155668104,
@@ -260,10 +233,7 @@
         "⏳ Blocked by 6 items - need to clear dependencies",
         "🚨 High priority (P0) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "bd-3bxhj.7.6",
-        "bd-3bxhj.7.7"
-      ],
+      "unblocks_ids": ["bd-3bxhj.7.6", "bd-3bxhj.7.7"],
       "blocked_by": [
         "bd-3bxhj.6.12",
         "bd-3bxhj.6.3",
@@ -279,12 +249,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "ingestion",
-        "opentui-import",
-        "test",
-        "unit"
-      ],
+      "labels": ["ingestion", "opentui-import", "test", "unit"],
       "score": 0.31070076674566605,
       "breakdown": {
         "pagerank": 0.017974026015411954,
@@ -323,12 +288,8 @@
         "⏳ Blocked by bd-3bxhj.2.8 - complete that first",
         "🚨 High priority (P0) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "bd-3bxhj.2.10"
-      ],
-      "blocked_by": [
-        "bd-3bxhj.2.8"
-      ]
+      "unblocks_ids": ["bd-3bxhj.2.10"],
+      "blocked_by": ["bd-3bxhj.2.8"]
     },
     {
       "id": "bd-3bxhj.10.11",
@@ -336,12 +297,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "alien-graveyard",
-        "e2e",
-        "opentui-import",
-        "test"
-      ],
+      "labels": ["alien-graveyard", "e2e", "opentui-import", "test"],
       "score": 0.27799806131829813,
       "breakdown": {
         "pagerank": 0.015018725094007826,
@@ -396,12 +352,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "e2e",
-        "ir",
-        "opentui-import",
-        "test"
-      ],
+      "labels": ["e2e", "ir", "opentui-import", "test"],
       "score": 0.2676963054990274,
       "breakdown": {
         "pagerank": 0.02443454259404062,
@@ -440,12 +391,8 @@
         "⏳ Blocked by bd-3bxhj.2.10 - complete that first",
         "🚨 High priority (P0) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "bd-3bxhj.4.10"
-      ],
-      "blocked_by": [
-        "bd-3bxhj.2.10"
-      ]
+      "unblocks_ids": ["bd-3bxhj.4.10"],
+      "blocked_by": ["bd-3bxhj.2.10"]
     },
     {
       "id": "bd-3bxhj.8.5",
@@ -453,11 +400,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "benchmarking",
-        "opentui-import",
-        "performance"
-      ],
+      "labels": ["benchmarking", "opentui-import", "performance"],
       "score": 0.25476487010082904,
       "breakdown": {
         "pagerank": 0.03806437244972614,
@@ -496,13 +439,8 @@
         "⏳ Blocked by 2 items - need to clear dependencies",
         "🚨 High priority (P0) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "bd-3bxhj.8.6"
-      ],
-      "blocked_by": [
-        "bd-3bxhj.4.10",
-        "bd-3bxhj.8.14"
-      ]
+      "unblocks_ids": ["bd-3bxhj.8.6"],
+      "blocked_by": ["bd-3bxhj.4.10", "bd-3bxhj.8.14"]
     },
     {
       "id": "bd-2vr05.7.3",
@@ -510,11 +448,7 @@
       "type": "task",
       "status": "open",
       "priority": 1,
-      "labels": [
-        "accessibility",
-        "frankenterm",
-        "screen-reader"
-      ],
+      "labels": ["accessibility", "frankenterm", "screen-reader"],
       "score": 0.2448660554001379,
       "breakdown": {
         "pagerank": 0.013114155801734263,
@@ -552,9 +486,7 @@
         "✅ Currently unclaimed - available for work",
         "🚨 High priority (P1) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "bd-2vr05.7.4"
-      ]
+      "unblocks_ids": ["bd-2vr05.7.4"]
     },
     {
       "id": "bd-3bxhj.6.11",
@@ -562,12 +494,7 @@
       "type": "task",
       "status": "open",
       "priority": 0,
-      "labels": [
-        "certification",
-        "e2e",
-        "opentui-import",
-        "test"
-      ],
+      "labels": ["certification", "e2e", "opentui-import", "test"],
       "score": 0.2441142590752553,
       "breakdown": {
         "pagerank": 0.039010997755471725,
@@ -605,12 +532,7 @@
         "⏳ Blocked by 4 items - need to clear dependencies",
         "🚨 High priority (P0) - prioritize this work"
       ],
-      "blocked_by": [
-        "bd-3bxhj.5.9",
-        "bd-3bxhj.6.10",
-        "bd-3bxhj.6.13",
-        "bd-3bxhj.6.9"
-      ]
+      "blocked_by": ["bd-3bxhj.5.9", "bd-3bxhj.6.10", "bd-3bxhj.6.13", "bd-3bxhj.6.9"]
     }
   ],
   "quick_wins": [
@@ -633,41 +555,28 @@
       "title": "task(opentui-import ingestion tests): E2E ingestion script with deterministic replay logging",
       "score": 1.3000000000000003,
       "reason": "Unblocks 3 items, high priority",
-      "unblocks_ids": [
-        "bd-3bxhj.2.14",
-        "bd-3bxhj.3.9",
-        "bd-3bxhj.7.5"
-      ]
+      "unblocks_ids": ["bd-3bxhj.2.14", "bd-3bxhj.3.9", "bd-3bxhj.7.5"]
     },
     {
       "id": "bd-1y0ph",
       "title": "task(pane-perf): profile hotspots across core, terminal, and web drag paths",
       "score": 1.1339850002884626,
       "reason": "Unblocks 2 items, high priority",
-      "unblocks_ids": [
-        "bd-1k7ek",
-        "bd-25wj7"
-      ]
+      "unblocks_ids": ["bd-1k7ek", "bd-25wj7"]
     },
     {
       "id": "bd-21pbi.1",
       "title": "task(pane-a11y): define canonical keyboard command model and focus graph semantics",
       "score": 1.1339850002884626,
       "reason": "Unblocks 2 items, high priority",
-      "unblocks_ids": [
-        "bd-21pbi.2",
-        "bd-21pbi.3"
-      ]
+      "unblocks_ids": ["bd-21pbi.2", "bd-21pbi.3"]
     },
     {
       "id": "bd-3bxhj.6.9",
       "title": "task(opentui-import certification): Implement certification report generator and verdict policy engine",
       "score": 0.9339850002884625,
       "reason": "Unblocks 2 items, high priority",
-      "unblocks_ids": [
-        "bd-3bxhj.7.6",
-        "bd-3bxhj.7.7"
-      ]
+      "unblocks_ids": ["bd-3bxhj.7.6", "bd-3bxhj.7.7"]
     }
   ],
   "blockers_to_clear": [
@@ -684,55 +593,36 @@
         "bd-3bxhj.6.7"
       ],
       "actionable": false,
-      "blocked_by": [
-        "bd-3bxhj.3.9"
-      ]
+      "blocked_by": ["bd-3bxhj.3.9"]
     },
     {
       "id": "bd-3bxhj.2.10",
       "title": "task(opentui-import ingestion tests): E2E ingestion script with deterministic replay logging",
       "unblocks_count": 3,
-      "unblocks_ids": [
-        "bd-3bxhj.2.14",
-        "bd-3bxhj.3.9",
-        "bd-3bxhj.7.5"
-      ],
+      "unblocks_ids": ["bd-3bxhj.2.14", "bd-3bxhj.3.9", "bd-3bxhj.7.5"],
       "actionable": false,
-      "blocked_by": [
-        "bd-3bxhj.2.9"
-      ]
+      "blocked_by": ["bd-3bxhj.2.9"]
     },
     {
       "id": "bd-1y0ph",
       "title": "task(pane-perf): profile hotspots across core, terminal, and web drag paths",
       "unblocks_count": 2,
-      "unblocks_ids": [
-        "bd-1k7ek",
-        "bd-25wj7"
-      ],
+      "unblocks_ids": ["bd-1k7ek", "bd-25wj7"],
       "actionable": false,
-      "blocked_by": [
-        "bd-2bav7"
-      ]
+      "blocked_by": ["bd-2bav7"]
     },
     {
       "id": "bd-21pbi.1",
       "title": "task(pane-a11y): define canonical keyboard command model and focus graph semantics",
       "unblocks_count": 2,
-      "unblocks_ids": [
-        "bd-21pbi.2",
-        "bd-21pbi.3"
-      ],
+      "unblocks_ids": ["bd-21pbi.2", "bd-21pbi.3"],
       "actionable": false
     },
     {
       "id": "bd-3bxhj.6.9",
       "title": "task(opentui-import certification): Implement certification report generator and verdict policy engine",
       "unblocks_count": 2,
-      "unblocks_ids": [
-        "bd-3bxhj.7.6",
-        "bd-3bxhj.7.7"
-      ],
+      "unblocks_ids": ["bd-3bxhj.7.6", "bd-3bxhj.7.7"],
       "actionable": false,
       "blocked_by": [
         "bd-3bxhj.6.12",
